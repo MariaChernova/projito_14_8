@@ -1,0 +1,13 @@
+.lead__popup-close {
+  position: absolute;
+  left: -24px;
+  background-image: url(../../../images/icon/popup-сlose.svg);
+  background-color: transparent;
+  height: 24px;
+  width: 24px;
+  border: none;
+  display: flex;
+  align-content: center;
+  cursor: pointer;
+
+}

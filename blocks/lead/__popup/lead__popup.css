@@ -1,0 +1,21 @@
+.lead__popup {
+  display: flex;
+  position: relative;
+  background-color: #A5CDAB;
+  width: 237px;
+  height: 132px;
+}
+
+@media screen and (max-width: 1439px) {
+  .lead__popup {
+    width: 191px;
+    height: 112px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__popup {
+    width: 157px;
+    height: 104px;
+  }
+}

@@ -1,0 +1,24 @@
+.lead__text {
+  font-family: projito;
+  font-size: 46px;
+  line-height: 1.2;
+  max-width: 1163px;
+  margin: 0 0 114px 32px;
+}
+
+@media screen and (max-width: 1439px) {
+  .lead__text {
+    font-size: 30px;
+    min-width: 676px;
+    margin: 0 0 28px 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__text {
+    font-size: 26px;
+    line-height: 1;
+    min-width: 336px;
+    margin: 0 0 93px 12px;
+  }
+}
