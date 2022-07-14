@@ -2,6 +2,9 @@
 @import url(../vendor/fonts/projito.css);
 @import url(../vendor/fonts/PT-sans.css);
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/actions/actions.css);
+
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__button/projects__button.css);
 @import url(../blocks/projects/__card-date/projects__card-date.css);

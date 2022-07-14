@@ -2,7 +2,7 @@
   font-family: 'PT Sans', Arial, sans-serif;
   color: #323232;
   background-color: #fff;
-  max-width: 1440px;
+  width: 100%;
   min-width: 360px;
   margin: 0 auto;
   -moz-osx-font-smoothing: grayscale;
