@@ -2,7 +2,7 @@
   margin: 0 40px 0 0;
   padding: 12px 10px 11px;
   font-size: 20px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   line-height: 130%;
   /* 26px = 130% */
   text-decoration: none;
