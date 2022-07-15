@@ -1,0 +1,13 @@
+.diary__text {
+  max-width: 296px;
+  height: 83px;
+  margin: 0 16px 28px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-overflow: ellipsis;
+  color: rgba(50, 50, 50, 0.5);
+}
