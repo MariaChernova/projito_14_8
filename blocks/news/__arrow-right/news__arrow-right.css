@@ -1,0 +1,10 @@
+.news__arrow-right {
+    border: 1px solid rgb(50, 50, 50);
+    background-color: transparent;
+    background-image: url(../../../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
