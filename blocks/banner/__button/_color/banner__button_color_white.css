@@ -1,4 +1,4 @@
-.banner__button_white {
+.banner__button_color_white {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,10 +16,10 @@
   transition: 0.3s ease;
 }
 
-.banner__button_white:hover {
+.banner__button_color_white:hover {
   border-color: #97BA9C;
 }
 
-.banner__button_white:active {
+.banner__button_color_white:active {
   border-color: #7A9F80;
 }

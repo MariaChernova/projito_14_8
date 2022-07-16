@@ -10,8 +10,8 @@
 @import url(../blocks/banner/__subtitle/banner__subtitle.css);
 @import url(../blocks/banner/__image/banner__image.css);
 @import url(../blocks/banner/__buttons/banner__buttons.css);
-@import url(../blocks/banner/__button/_white/banner__button_white.css);
-@import url(../blocks/banner/__button/_green/banner__button_green.css);
+@import url(../blocks/banner/__button/_color/banner__button_color_white.css);
+@import url(../blocks/banner/__button/_color/banner__button_color_green.css);
 
 @import url(../blocks/actions/actions.css);
 @import url(../blocks/actions/__items/actions__items.css);

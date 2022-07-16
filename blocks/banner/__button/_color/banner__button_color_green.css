@@ -1,4 +1,4 @@
-.banner__button_green {
+.banner__button_color_green {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,10 +16,10 @@
   transition: 0.3s ease;
 }
 
-.banner__button_green:hover {
+.banner__button_color_green:hover {
   background-color: #97BA9C;
 }
 
-.banner__button_green:active {
+.banner__button_color_green:active {
   background-color: #7A9F80;
 }
