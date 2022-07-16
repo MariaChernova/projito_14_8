@@ -15,3 +15,9 @@
 .lead__popup-close:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__popup-close {
+    transform: scale(0.7);
+  }
+}
