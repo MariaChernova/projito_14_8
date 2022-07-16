@@ -1,0 +1,6 @@
+.banner__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 678px;
+}
