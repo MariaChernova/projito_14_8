@@ -1,0 +1,9 @@
+.exp-card__section-name {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}

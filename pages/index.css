@@ -16,13 +16,16 @@
 @import url("../blocks/theme-card/theme-card.css");
 @import url("../blocks/theme-card/_theme/theme-card_theme_stalin.css");
 @import url("../blocks/theme-card/_theme/theme-card_theme_blocada.css");
-@import url("../blocks/theme-card/_device/theme-card_device_tablet.css");
 @import url("../blocks/theme-card/__wrapper/theme-card__wrapper.css");
-@import url("../blocks/theme-card/__wrapper/_device/theme-card__wrapper_device_tablet.css");
 @import url("../blocks/theme-card/__section-name/theme-card__section-name.css");
-@import url("../blocks/theme-card/__section-name/_device/theme-card__section-name_device_tablet.css");
 @import url("../blocks/theme-card/__title/theme-card__title.css");
-@import url("../blocks/theme-card/__title/_device/theme-card__title_device_tablet.css");
 @import url("../blocks/theme-card/__subtitle/theme-card__subtitle.css");
-@import url("../blocks/theme-card/__subtitle/_device/theme-card__subtitle_device_tablet.css");
 @import url("../blocks/theme-card/__text/theme-card__text.css");
+@import url("../blocks/exp-card/exp-card.css");
+@import url("../blocks/exp-card/__about/exp-card__about.css");
+@import url("../blocks/exp-card/__portrait/exp-card__portrait.css");
+@import url("../blocks/exp-card/__section-name/exp-card__section-name.css");
+@import url("../blocks/exp-card/__subtitle/exp-card__subtitle.css");
+@import url("../blocks/exp-card/__title/exp-card__title.css");
+@import url("../blocks/exp-card/__wrapper/theme-card__wrapper.css");
+
