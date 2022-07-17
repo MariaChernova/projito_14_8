@@ -1,4 +1,5 @@
 .banner__button_color_green {
+  grid-area: banner__button_color_green;
   display: flex;
   align-items: center;
   justify-content: center;

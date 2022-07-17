@@ -1,4 +1,5 @@
 .banner__image {
+  grid-area: banner__image;
   width: 329px;
   height: 440px;
   margin-right: 136px;
@@ -8,7 +9,6 @@
   .banner__image {
     width: 174px;
     height: 259px;
-    margin-right: 75px;
     object-fit: cover;
   }
 }
