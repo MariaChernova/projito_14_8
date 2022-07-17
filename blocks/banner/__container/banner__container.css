@@ -1,0 +1,42 @@
+.banner__container {
+  display: grid;
+  align-self: center;
+  background-color: #F7F4F0;
+  width: 1376px;
+  padding: 56px 116px 64px 116px;
+  justify-content: center;
+  grid-template-columns: 446px 329px 329px;
+  column-gap: 20px;
+  row-gap: 32px;
+  grid-template-rows: 36px 280px 60px;
+  grid-template-areas:
+  "banner__image banner__title banner__title"
+  "banner__image banner__subtitle banner__subtitle"
+  "banner__image banner__button_color_white banner__button_color_green";
+}
+
+@media screen and (max-width: 1439px) {
+  .banner__container {
+    width: 100%;
+    padding: 20px 16px;
+    grid-template-columns: 234px 237px 237px;
+    column-gap: 12px;
+    row-gap: 12px;
+    grid-template-rows: 30px 157px 48px;
+    grid-template-areas:
+    "banner__image banner__title banner__title"
+    "banner__image banner__subtitle banner__subtitle"
+    "banner__image banner__button_color_white banner__button_color_green";
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px 12px;
+    gap: 16px;
+  }
+}

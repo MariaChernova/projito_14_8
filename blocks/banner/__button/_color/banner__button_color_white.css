@@ -1,0 +1,13 @@
+.banner__button_color_white {
+  grid-area: banner__button_color_white;
+  background-color: #F7F4F0;
+  border: 1px solid #323232;
+}
+
+.banner__button_color_white:hover {
+  border-color: #97BA9C;
+}
+
+.banner__button_color_white:active {
+  border-color: #7A9F80;
+}
