@@ -56,3 +56,20 @@
 @import url(../blocks/projects/__cards/projects__cards.css);
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__content/projects__content.css);
+
+@import url("../blocks/theme-card/theme-card.css");
+@import url("../blocks/theme-card/_theme/theme-card_theme_stalin.css");
+@import url("../blocks/theme-card/_theme/theme-card_theme_blocada.css");
+@import url("../blocks/theme-card/__wrapper/theme-card__wrapper.css");
+@import url("../blocks/theme-card/__section-name/theme-card__section-name.css");
+@import url("../blocks/theme-card/__title/theme-card__title.css");
+@import url("../blocks/theme-card/__subtitle/theme-card__subtitle.css");
+@import url("../blocks/theme-card/__text/theme-card__text.css");
+@import url("../blocks/exp-card/exp-card.css");
+@import url("../blocks/exp-card/__about/exp-card__about.css");
+@import url("../blocks/exp-card/__portrait/exp-card__portrait.css");
+@import url("../blocks/exp-card/__section-name/exp-card__section-name.css");
+@import url("../blocks/exp-card/__subtitle/exp-card__subtitle.css");
+@import url("../blocks/exp-card/__title/exp-card__title.css");
+@import url("../blocks/exp-card/__wrapper/theme-card__wrapper.css");
+
