@@ -17,3 +17,9 @@
     line-height: 37px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .materials__title {
+    margin: 56px auto 22px;
+  }
+}

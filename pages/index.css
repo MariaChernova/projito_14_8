@@ -9,5 +9,7 @@
 @import url(../blocks/diary/diary.css);
 @import url(../blocks/diary/__label/diary__label.css);
 @import url(../blocks/diary/__title/diary__title.css);
-@import url(../blocks/diary/__img/diary_img.css);
+@import url(../blocks/diary/__img/diary__img.css);
 @import url(../blocks/diary/__text/diary__text.css);
+@import url(../blocks/slide/slide.css);
+@import url(../blocks/slide/__ellipse/slide__ellipse.css);
