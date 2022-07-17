@@ -2,4 +2,6 @@
   display: flex;
   background-color: #fff;
   align-self: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }

@@ -14,11 +14,10 @@
 
 @import url(../blocks/banner/banner.css);
 @import url(../blocks/banner/__container/banner__container.css);
-@import url(../blocks/banner/__info/banner__info.css);
 @import url(../blocks/banner/__title/banner__title.css);
 @import url(../blocks/banner/__subtitle/banner__subtitle.css);
 @import url(../blocks/banner/__image/banner__image.css);
-@import url(../blocks/banner/__buttons/banner__buttons.css);
+@import url(../blocks/banner/__button/banner__button.css);
 @import url(../blocks/banner/__button/_color/banner__button_color_white.css);
 @import url(../blocks/banner/__button/_color/banner__button_color_green.css);
 
