@@ -1,0 +1,9 @@
+.projects__card {
+    display: flex;
+    margin-right: 20px;
+    background-color: #f7f4f0;
+}
+
+.projects__card:last-child {
+    margin-right: 0;
+}
