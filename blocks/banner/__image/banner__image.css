@@ -1,0 +1,22 @@
+.banner__image {
+  grid-area: banner__image;
+  width: 329px;
+  height: 440px;
+  margin-right: 136px;
+}
+
+@media screen and (max-width: 1439px) {
+  .banner__image {
+    width: 174px;
+    height: 259px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__image {
+    width: 164px;
+    height: 258px;
+    margin-right: 0;
+  }
+}
