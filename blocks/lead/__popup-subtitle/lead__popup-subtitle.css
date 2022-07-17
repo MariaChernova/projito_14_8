@@ -1,0 +1,21 @@
+.lead__popup-subtitle {
+  font-size: 14px;
+  margin: 12px 0 0 0;
+  line-height: 1.2;
+  max-width: 180px;
+}
+
+@media screen and (max-width: 1439px) {
+  .lead__popup-subtitle {
+    font-size: 12px;
+    line-height: 1.2;
+    max-width: 151px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__popup-subtitle {
+    font-size: 12px;
+    max-width: 124px;
+  }
+}
