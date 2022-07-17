@@ -1,0 +1,7 @@
+.banner__container {
+  display: flex;
+  align-self: center;
+  background-color: #F7F4F0;
+  width: 1376px;
+  padding: 56px 116px 64px 116px;
+}

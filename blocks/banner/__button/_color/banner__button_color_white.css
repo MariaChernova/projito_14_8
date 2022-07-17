@@ -1,0 +1,25 @@
+.banner__button_color_white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px 0 0;
+  width: 329px;
+  height: 60px;
+  background-color: #F7F4F0;
+  border: 1px solid #323232;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 17px 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.banner__button_color_white:hover {
+  border-color: #97BA9C;
+}
+
+.banner__button_color_white:active {
+  border-color: #7A9F80;
+}
