@@ -3,6 +3,15 @@
 @import url(../vendor/fonts/PT-sans.css);
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/materials/materials.css);
+@import url(../blocks/materials/__title/materials__title.css);
+@import url(../blocks/diarys/diarys.css);
+@import url(../blocks/diary/diary.css);
+@import url(../blocks/diary/__label/diary__label.css);
+@import url(../blocks/diary/__title/diary__title.css);
+@import url(../blocks/diary/__img/diary_img.css);
+@import url(../blocks/diary/__text/diary__text.css);
+
 @import url(../blocks/banner/banner.css);
 @import url(../blocks/banner/__container/banner__container.css);
 @import url(../blocks/banner/__info/banner__info.css);
