@@ -10,3 +10,22 @@
   max-width: 80%;
   max-height: 428px;
 }
+
+@media screen and (max-width: 1024px) {
+  .diarys {
+    gap: 12px;
+    max-height: 360px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .diarys {
+    margin: 0 0 0 41px;
+    max-height: 388px;
+    overflow-x: scroll;
+    justify-content: start;
+    max-width: 100%;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+}

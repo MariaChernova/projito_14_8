@@ -16,3 +16,11 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1024px) {
+  .diary__title {
+    height: 44px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
