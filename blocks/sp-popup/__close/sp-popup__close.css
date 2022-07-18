@@ -1,0 +1,14 @@
+.sp-popup__close {
+  background-image: url(../../../images/icon/popup-сlose.svg);
+  background-color: transparent;
+  height: 24px;
+  width: 24px;
+  border: none;
+  display: flex;
+  align-content: center;
+  cursor: pointer;
+}
+
+.sp-popup__close:hover {
+  opacity: 0.6;
+}
