@@ -1,0 +1,8 @@
+.navigation__list-element {
+    padding-right: 15px;
+    display: list-item;
+}
+
+.navigation__list-element:first-of-type {
+    list-style-type: none;
+}
