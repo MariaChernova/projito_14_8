@@ -1,4 +1,4 @@
-.lead__popup-close {
+.green-popup__close {
   position: absolute;
   left: -24px;
   top: 0px;
@@ -12,12 +12,12 @@
   cursor: pointer;
 }
 
-.lead__popup-close:hover {
+.green-popup__close:hover {
   opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {
-  .lead__popup-close {
+  .green-popup__close {
     transform: scale(0.7);
   }
 }

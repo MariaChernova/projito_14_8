@@ -1,23 +1,24 @@
-.lead__popup {
+.green-popup {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   right: 0;
-  top: 70px;
+  top: 120px;
   background-color: #A5CDAB;
   padding: 16px 33px 16px 24px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1439px) {
-  .lead__popup {
+  .green-popup {
     padding: 12px 20px 12px 20px;
-    top: 40px;
+    top: 90px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .lead__popup {
+  .green-popup {
     padding: 12px 16px 12px 16px;
-    top: 14px;
+    top: 55px;
   }
 }
