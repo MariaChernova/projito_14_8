@@ -2,3 +2,6 @@
 @import url(../vendor/fonts/projito.css);
 @import url(../vendor/fonts/PT-sans.css);
 @import url(../blocks/page/page.css);
+
+@import url("../blocks/navigation/navigation.css");
+@import url("../blocks/navigation/__link/navigation__link.css");
