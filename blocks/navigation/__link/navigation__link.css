@@ -3,6 +3,8 @@
     margin: 0;
     transition: all 0.5s ease;
     color: #323232;
+    font-size: 20px;
+    line-height: 1.3;
 }
 
 .navigation__link:active {
