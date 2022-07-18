@@ -1,6 +1,6 @@
 .navigation__list-element {
-    padding-right: 15px;
-    display: list-item;
+    list-style-position: inside;
+    padding-right: 6px;
 }
 
 .navigation__list-element:first-of-type {
