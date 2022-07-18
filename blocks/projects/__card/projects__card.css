@@ -7,3 +7,13 @@
 .projects__card:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 1439px) {
+    .projects__card {
+        margin-right: 13px;
+        flex-direction: column;
+        max-width: 361px;
+        min-height: 354px;
+        position: relative;
+    }
+}

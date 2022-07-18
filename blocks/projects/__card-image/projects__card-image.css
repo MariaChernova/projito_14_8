@@ -1,0 +1,12 @@
+.projects__card-image {
+    width: 212px;
+    height: 352px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1439px) {
+    .projects__card-image {
+        width: 100%;
+        height: 182px;
+    }
+}

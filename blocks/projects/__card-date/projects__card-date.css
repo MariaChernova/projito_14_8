@@ -6,3 +6,11 @@
     position: absolute;
     bottom: 0;
 }
+
+@media screen and (max-width: 1439px) {
+    .projects__card-date {
+        font-size: 12px;
+        line-height: 16px;
+        bottom: 12px;
+    }
+}
