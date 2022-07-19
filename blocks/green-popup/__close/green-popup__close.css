@@ -1,0 +1,23 @@
+.green-popup__close {
+  position: absolute;
+  left: -24px;
+  top: 0px;
+  background-image: url(../../../images/icon/popup-сlose.svg);
+  background-color: transparent;
+  height: 24px;
+  width: 24px;
+  border: none;
+  display: flex;
+  align-content: center;
+  cursor: pointer;
+}
+
+.green-popup__close:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 767px) {
+  .green-popup__close {
+    transform: scale(0.7);
+  }
+}

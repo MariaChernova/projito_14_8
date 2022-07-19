@@ -8,11 +8,17 @@
   background: #a5cdab;
   border-radius: 8px;
   order: 3;
-
   z-index: 3;
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .diary__label {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }

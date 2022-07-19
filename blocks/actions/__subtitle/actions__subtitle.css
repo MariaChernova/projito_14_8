@@ -4,3 +4,10 @@
   max-width: 498px;
   margin: 12px 0 0 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .actions__subtitle {
+    font-size: 14px;
+    max-width: 306px;
+  }
+}

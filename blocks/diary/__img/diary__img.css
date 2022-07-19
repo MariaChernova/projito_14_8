@@ -1,0 +1,13 @@
+.diary__img {
+  margin: 0 64px;
+  max-width: 200px;
+  max-height: 224px;
+}
+
+@media screen and (max-width: 1024px) {
+  .diary__img {
+    margin: 0 32px;
+
+    height: 180px;
+  }
+}

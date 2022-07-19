@@ -1,0 +1,7 @@
+.header__links {
+  margin: 0 0 -1px;
+  padding: 0;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+}

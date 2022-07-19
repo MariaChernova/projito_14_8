@@ -5,3 +5,15 @@
   margin: 0;
   align-self: center;
 }
+
+@media screen and (max-width: 1439px) {
+  .actions__more-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .actions__more-subtitle {
+    font-size: 12px;
+  }
+}

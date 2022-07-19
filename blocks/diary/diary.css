@@ -7,8 +7,22 @@
   gap: 12px;
   position: relative;
   background-color: #e7e4de;
+  cursor: pointer;
 }
 
 .diary:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .diary {
+    max-width: 238px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .diary {
+    max-width: 276px;
+    margin-top: 18px;
+  }
 }

@@ -1,7 +1,18 @@
 .lead {
   display: flex;
-  position: relative;
   background-color: #F7F4F0;
   width: 100%;
   padding-top: 70px;
+}
+
+@media screen and (max-width: 1439px) {
+  .lead {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding-top: 31px;
+  }
 }
