@@ -2,3 +2,33 @@
 @import url(../vendor/fonts/projito.css);
 @import url(../vendor/fonts/PT-sans.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__projito/logo__projito.css);
+@import url(../blocks/logo/__university/logo__university.css);
+@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-link-logo/footer__social-link-logo.css);
+@import url(../blocks/footer/__social-link-text/footer__social-link-text.css);
+@import url(../blocks/footer/__info-links/footer__info-links.css);
+@import url(../blocks/footer/__info-link/footer__info-link.css);
+
+@import url(../blocks/magazine-cards/magazine-cards.css);
+
+@import url(../blocks/theme-card/theme-card.css);
+@import url(../blocks/theme-card/_theme/theme-card_theme_stalin.css);
+@import url(../blocks/theme-card/_theme/theme-card_theme_blocada.css);
+@import url(../blocks/theme-card/__wrapper/theme-card__wrapper.css);
+@import url(../blocks/theme-card/__section-name/theme-card__section-name.css);
+@import url(../blocks/theme-card/__title/theme-card__title.css);
+@import url(../blocks/theme-card/__subtitle/theme-card__subtitle.css);
+@import url(../blocks/theme-card/__text/theme-card__text.css);
+@import url(../blocks/exp-card/exp-card.css);
+@import url(../blocks/exp-card/__about/exp-card__about.css);
+@import url(../blocks/exp-card/__portrait/exp-card__portrait.css);
+@import url(../blocks/exp-card/__section-name/exp-card__section-name.css);
+@import url(../blocks/exp-card/__subtitle/exp-card__subtitle.css);
+@import url(../blocks/exp-card/__title/exp-card__title.css);
+@import url(../blocks/exp-card/__wrapper/theme-card__wrapper.css);
