@@ -24,6 +24,9 @@
 @import url(../blocks/tags/__list/tags__list.css);
 @import url(../blocks/tags/__list-element/tags__list-element.css);
 
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__open-button/table__open-button.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);

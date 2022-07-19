@@ -1,0 +1,29 @@
+.table__open-button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 0;
+  font-family: projito;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  overflow: hidden;
+
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+
+  transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+}
+
+.table__open-button:hover {
+    opacity: 0.8;
+}
