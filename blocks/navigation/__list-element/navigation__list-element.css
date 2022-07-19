@@ -1,0 +1,8 @@
+.navigation__list-element {
+    list-style-position: inside;
+    padding-right: 6px;
+}
+
+.navigation__list-element:first-of-type {
+    list-style-type: none;
+}
