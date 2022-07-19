@@ -20,6 +20,10 @@
 @import url(../blocks/navigation/__list-element/navigation__list-element.css);
 @import url(../blocks/navigation/__list-element/_disabled/navigation__list-element_disabled.css);
 
+@import url(../blocks/tags/tags.css);
+@import url(../blocks/tags/__list/tags__list.css);
+@import url(../blocks/tags/__list-element/tags__list-element.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
