@@ -5,7 +5,7 @@
 }
 
 .projects__card:last-child {
-    margin-right: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 1439px) {
@@ -15,5 +15,13 @@
         max-width: 361px;
         min-height: 354px;
         position: relative;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .projects__card {
+        margin: 0 0 24px 0;
+        min-height: 386px;
+        max-width: 336px;
     }
 }

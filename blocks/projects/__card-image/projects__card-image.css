@@ -10,3 +10,9 @@
         height: 182px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .projects__card-image {
+        height: 200px;
+    }
+}

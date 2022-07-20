@@ -14,3 +14,10 @@
         bottom: 12px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .projects__card-date {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

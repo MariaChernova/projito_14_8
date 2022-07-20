@@ -11,3 +11,9 @@
         position: static;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .projects__content {
+        margin: 12px 8px;
+    }
+}

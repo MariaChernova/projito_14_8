@@ -30,3 +30,9 @@
         margin: 24px auto 0;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .projects__button {
+        padding: 16px 104.5px;
+    }
+}

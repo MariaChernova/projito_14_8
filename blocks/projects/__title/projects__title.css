@@ -14,3 +14,18 @@
         line-height: 37px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .projects__title {
+        font-size: 32px;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .projects__title {
+        margin-left: 12px;
+        text-align: left;
+    }
+}
