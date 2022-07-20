@@ -16,6 +16,7 @@
 @import url(../blocks/footer/__info-link/footer__info-link.css);
 
 @import url(../blocks/magazine-cards/magazine-cards.css);
+@import url(../blocks/title/title.css);
 
 @import url(../blocks/theme-card/theme-card.css);
 @import url(../blocks/theme-card/_theme/theme-card_theme_stalin.css);
