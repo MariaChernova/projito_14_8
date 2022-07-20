@@ -34,22 +34,32 @@
     </header>
     <main>
       <!-- Попап "Это верно" -->
-      <section class="sp-popup"></section>
+      <section class="sp-popup">
+        
+      </section>
+      <button
+        class="rotated-button"
+        type="button"
+        aria-label="table of contents"
+      >
+        оглавление
+      </button>
       <!-- Попап "Оглавление" -->
-      <section class="table">
-        <button
-          class="table__open-button"
-          type="button"
-          aria-label="table of contents"
-        >
-          оглавление
+      <section class="table-popup table-popup_opened">
+        <button class="table-popup__close-button">
+          <img  src="./images/icon/popup-сlose.svg" alt="Иконка крестика">
         </button>
-        <div class="table__popup table__popup_opened">
-          <button class="table__close-button"></button>
-          <a href="./sample-page.html" class="table__link">Часть 1</a>
-          <a href="#" class="table__link">Часть 2</a>
-          <a href="#" class="table__link">Часть 3</a>
-        </div>
+        <ul class="table-popup__list">
+          <li class="table-popup__list-element">
+            <a href="./sample-page.html" class="table-popup__link">Часть 1</a>
+          </li>
+          <li class="table-popup__list-element">
+            <a href="#" class="table-popup__link">Часть 2</a>
+          </li>
+          <li class="table-popup__list-element">
+            <a href="#" class="table-popup__link">Часть 3</a>
+          </li>
+        </ul>
       </section>
       <section class="navigation">
         <ul class="navigation__list">

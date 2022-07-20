@@ -1,0 +1,13 @@
+.table-popup__link {
+    font-family: projito;
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 1;
+    color: inherit;
+    transition: all 0.5s;
+}
+
+.table-popup__link:hover {
+    opacity: 0.8;
+}
+

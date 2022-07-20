@@ -1,0 +1,7 @@
+.table-popup__list-element {
+    width: 926px;
+    list-style-type: none;
+    padding: 36px 0 46px;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.5);
+    text-align: center;
+}

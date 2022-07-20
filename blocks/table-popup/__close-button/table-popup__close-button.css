@@ -1,0 +1,14 @@
+.table-popup__close-button {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 37px;
+    right: 37px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.table-popup__close-button:hover {
+    opacity: 0.8;
+}

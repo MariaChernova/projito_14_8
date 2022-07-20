@@ -1,0 +1,7 @@
+.table-popup__list {
+    margin: calc(170px - 36px) 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
