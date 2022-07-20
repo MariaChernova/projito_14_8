@@ -1,0 +1,11 @@
+.slide__ellipse {
+  box-sizing: border-box;
+  min-height: 8px;
+  min-width: 8px;
+  background-image: url(../../../images/Ellipse71.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  position: relative;
+}
