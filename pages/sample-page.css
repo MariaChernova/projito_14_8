@@ -26,6 +26,10 @@
 
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__open-button/table__open-button.css);
+@import url(../blocks/table/__popup/table__popup.css);
+@import url(../blocks/table/__popup/_opened/table__popup_opened.css);
+@import url(../blocks/table/__close-button/table__close-button.css);
+@import url(../blocks/table/__link/table__link.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);

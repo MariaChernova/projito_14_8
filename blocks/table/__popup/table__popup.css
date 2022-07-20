@@ -1,0 +1,10 @@
+.table__popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #E7E4DE;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    overflow-y: hidden;
+}

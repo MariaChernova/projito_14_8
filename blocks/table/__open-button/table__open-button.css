@@ -4,6 +4,7 @@
   background-color: transparent;
   box-sizing: border-box;
   border: 0;
+  text-transform: lowercase;
   font-family: projito;
   font-weight: 400;
   font-size: 26px;
