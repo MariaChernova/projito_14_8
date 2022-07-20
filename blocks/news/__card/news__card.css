@@ -1,8 +1,13 @@
 .news__card {
     width: 328px;
     margin-left: 20px;
+    transition: .2s ease;
 }
 
 .news__card:first-child {
     margin-left: 0;
+}
+
+.news__card:hover {
+    opacity: .8;
 }
