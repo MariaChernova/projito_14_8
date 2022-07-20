@@ -1,0 +1,8 @@
+.content__slider {
+  display: flex;
+  position: relative;
+  background-color: #F7F4F0;
+  width: 910px;
+  height: 520px;
+  display: flex;
+}
