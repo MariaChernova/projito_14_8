@@ -1,0 +1,11 @@
+.header__links-down {
+  margin-right: 30px;
+  padding: 0;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-start;
+  position: absolute;
+  right: 0px;
+}
