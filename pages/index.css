@@ -62,10 +62,10 @@
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__content/projects__content.css);
 
-@import url("../blocks/theme-card/theme-card.css");
-@import url("../blocks/theme-card/_theme/theme-card_theme_stalin.css");
-@import url("../blocks/theme-card/_theme/theme-card_theme_blocada.css");
-@import url("../blocks/theme-card/__wrapper/theme-card__wrapper.css");
+@import url(../blocks/theme-card/theme-card.css);
+@import url(../blocks/theme-card/_theme/theme-card_theme_stalin.css);
+@import url(../blocks/theme-card/_theme/theme-card_theme_blocada.css);
+@import url(../blocks/theme-card/__wrapper/theme-card__wrapper.css);
 @import url("../blocks/theme-card/__section-name/theme-card__section-name.css");
 @import url("../blocks/theme-card/__title/theme-card__title.css");
 @import url("../blocks/theme-card/__subtitle/theme-card__subtitle.css");
