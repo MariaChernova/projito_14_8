@@ -6,3 +6,11 @@
     max-width: 355px;
     margin: 16px 0 357px 32px;
 }
+
+@media screen and (max-width: 1439px) {
+    .news__title {
+        font-size: 30px;
+        line-height: 37px;
+        margin: 16px 0 290px 16px;
+    }
+}
