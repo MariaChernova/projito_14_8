@@ -1,0 +1,8 @@
+.magazine-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 526px);
+  margin: 36px auto 40px;
+  max-width: 1144px;
+  gap: 62px 80px;
+}

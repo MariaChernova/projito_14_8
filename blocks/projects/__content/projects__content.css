@@ -4,3 +4,16 @@
     max-width: 402px;
     position: relative;
 }
+
+@media screen and (max-width: 1439px) {
+    .projects__content {
+        margin: 12px;
+        position: static;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .projects__content {
+        margin: 12px 8px;
+    }
+}
