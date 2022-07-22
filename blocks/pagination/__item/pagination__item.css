@@ -1,0 +1,23 @@
+.pagination__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 9px;
+  width: 32px;
+  height: 34px;
+  color: #323232;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.pagination__item:first-of-type {
+  margin: 0 214px 0 0;
+}
+
+.pagination__item:last-of-type {
+  margin: 0 0 0 214px;
+}
+
+.pagination__item:hover {
+  opacity: 0.5;
+}
