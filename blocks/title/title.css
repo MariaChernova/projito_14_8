@@ -1,0 +1,11 @@
+.title {
+  margin: 42px auto 62px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 60px;
+  color: #323232;
+  position: relative;
+  text-align: center;
+}

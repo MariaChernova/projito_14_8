@@ -1,0 +1,17 @@
+.news__arrow-left {
+    border: 1px solid rgb(50, 50, 50);
+    background-color: transparent;
+    background-image: url(../../../images/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.news__arrow-left:hover {
+    opacity: 0.7;
+}

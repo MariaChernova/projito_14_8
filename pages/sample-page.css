@@ -3,6 +3,12 @@
 @import url(../vendor/fonts/PT-sans.css);
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/sp-popup/sp-popup.css);
+@import url(../blocks/sp-popup/__first-line/sp-popup__first-line.css);
+@import url(../blocks/sp-popup/__title/sp-popup__title.css);
+@import url(../blocks/sp-popup/__subtitle/sp-popup__subtitle.css);
+@import url(../blocks/sp-popup/__close/sp-popup__close.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/_bgcolor/header_bgcolor_white);

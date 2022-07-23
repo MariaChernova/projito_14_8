@@ -21,3 +21,18 @@
 .projects__button:active {
     background-color: #7A9F80;
 }
+
+@media screen and (max-width: 1439px) {
+    .projects__button {
+        padding: 15px 55px;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 24px auto 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .projects__button {
+        padding: 16px 104.5px;
+    }
+}
