@@ -2,5 +2,7 @@
     background-color: #323232;
     display: flex;
     flex-direction: column;
-    width: calc(100% / 3);
+    justify-content: space-between;
+    flex-basis: 33%;
+    height: 560px;
 }
