@@ -53,6 +53,7 @@
 @import url(../blocks/slider/__slide-button/slider__slide-button.css);
 @import url(../blocks/slider/__slide-button/_direction/slider__slide-button_direction_left.css);
 @import url(../blocks/slider/__slide-button/_direction/slider__slide-button_direction_right.css);
+@import url(../blocks/slider/__slide-button/_disabled/slider__slide-button_disabled.css);
 @import url(../blocks/slider/__container/slider__container.css);
 @import url(../blocks/slider/__scroll/slider__scroll.css);
 
