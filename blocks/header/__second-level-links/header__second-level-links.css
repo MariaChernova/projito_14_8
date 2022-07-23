@@ -1,0 +1,26 @@
+.header__second-level-links {
+  display: none;
+  position: absolute;
+  flex-wrap: nowrap;
+  top: 62px;
+  right: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__second-level-links {
+    top: 57px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__second-level-links {
+    position: static;
+    padding: 0 0 24px;
+    width: 100%;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    row-gap: 28px;
+  }
+}
