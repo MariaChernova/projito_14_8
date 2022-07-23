@@ -34,6 +34,7 @@
 
 @import url(../blocks/table-popup/table-popup.css);
 @import url(../blocks/table-popup/_opened/table-popup_opened.css);
+@import url(../blocks/table-popup/__wrapper/table-popup__wrapper.css);
 @import url(../blocks/table-popup/__close-button/table-popup__close-button.css);
 @import url(../blocks/table-popup/__list/table-popup__list.css);
 @import url(../blocks/table-popup/__list-element/table-popup__list-element.css);

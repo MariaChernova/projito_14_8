@@ -1,0 +1,6 @@
+.table-popup__wrapper {
+    max-width: 1440px;
+    position: relative;
+    margin: auto;
+    padding-top: calc(170px - 36px);
+}

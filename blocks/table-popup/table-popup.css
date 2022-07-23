@@ -1,13 +1,11 @@
 .table-popup {
     visibility: hidden;
     opacity: 0;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     background: #E7E4DE;    
     transition: all .5s ease-in-out;
-    display: flex;
-    justify-content: center;
 }
