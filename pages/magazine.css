@@ -19,8 +19,9 @@
 @import url(../blocks/navigation/__list-element/navigation__list-element.css);
 @import url(../blocks/navigation/__list-element/_disabled/navigation__list-element_disabled.css);
 
-@import url(../blocks/magazine-cards/magazine-cards.css);
 @import url(../blocks/title/title.css);
+
+@import url(../blocks/magazine-cards/magazine-cards.css);
 
 @import url(../blocks/theme-card/theme-card.css);
 @import url(../blocks/theme-card/_theme/theme-card_theme_stalin.css);
@@ -41,7 +42,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-
 @import url(../blocks/footer/__social-links/footer__social-links.css);
 @import url(../blocks/footer/__social-link/footer__social-link.css);
 @import url(../blocks/footer/__social-link-logo/footer__social-link-logo.css);
