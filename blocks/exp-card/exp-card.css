@@ -1,11 +1,13 @@
 .exp-card {
     display: inline-block;
-    width: 328px;
-    height: 526px;
+    min-width: 328px;
+    min-height: 526px;
     border-radius: 10px;
 
     transition: opacity 1s ease;
     background-color: #E7E4DE;
+    white-space: normal;
+    display: inline-block;
 }
 
 .exp-card:hover {
