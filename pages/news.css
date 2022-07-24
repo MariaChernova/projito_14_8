@@ -21,6 +21,25 @@
 
 @import url(../blocks/title/title.css);
 
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__cards/news__cards.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__name/news__name.css);
+@import url(../blocks/news/__text/news__text.css);
+@import url(../blocks/news/__image/news__image.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__link-wrapper/news__link-wrapper.css);
+@import url(../blocks/news/__cards/_webpage/news-cards_webpage.css);
+@import url(../blocks/news/__link-wrapper/_webpage/news__link-wrapper_webpage.css);
+
+@import url(../blocks/pagination/pagination.css);
+@import url(../blocks/pagination/__link/pagination__link.css);
+@import url(../blocks/pagination/__item/pagination__item.css);
+@import url(../blocks/pagination/__item-active/pagination__item-active.css);
+@import url(../blocks/pagination/__arrow/pagination__arrow.css);
+@import url(../blocks/pagination/__arrow-disable/pagination__arrow-disable.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
