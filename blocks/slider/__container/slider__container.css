@@ -1,0 +1,32 @@
+.slider__container {
+  height: calc(467px - 24px);
+  white-space: nowrap;
+  overflow-x: scroll;
+  width: 100%;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+  margin-left: 20px;
+  /* это для мозиллы */
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #323232 #e7e4de;
+}
+
+/* Это для webkit'ов */
+.slider__container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.slider__container::-webkit-scrollbar-track {
+  background: #e7e4de;
+}
+
+.slider__container::-webkit-scrollbar-thumb {
+  background-color: #323232;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}

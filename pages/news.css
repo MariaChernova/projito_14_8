@@ -2,3 +2,38 @@
 @import url(../vendor/fonts/projito.css);
 @import url(../vendor/fonts/PT-sans.css);
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/title/title.css);
+
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__arrow-left/news__arrow-left.css);
+@import url(../blocks/news/__arrow-right/news__arrow-right.css);
+@import url(../blocks/news/__arrows/news__arrows.css);
+@import url(../blocks/news/__button/news__button.css);
+@import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__cards/news__cards.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__fresh/news__fresh.css);
+@import url(../blocks/news/__header/news__header.css);
+@import url(../blocks/news/__name/news__name.css);
+@import url(../blocks/news/__scroll/news__scroll.css);
+@import url(../blocks/news/__side-block/news__side-block.css);
+@import url(../blocks/news/__subtitle/news__subtitle.css);
+@import url(../blocks/news/__text/news__text.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__image/news__image.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__link-wrapper/news__link-wrapper.css);
+@import url(../blocks/news/__cards/_webpage/news-cards_webpage.css);
+@import url(../blocks/news/__link-wrapper/_webpage/news__link-wrapper_webpage.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-link-text/footer__social-link-text.css);
+@import url(../blocks/footer/__social-link-logo/footer__social-link-logo.css);
+@import url(../blocks/footer/__info-links/footer__info-links.css);
+@import url(../blocks/footer/__info-link/footer__info-link.css);
