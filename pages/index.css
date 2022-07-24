@@ -18,6 +18,7 @@
 @import url(../blocks/logo/__university/logo__university.css);
 
 @import url(../blocks/green-popup/green-popup.css);
+@import url(../blocks/green-popup/_closed/green-popup_closed.css);
 @import url(../blocks/green-popup/__title/green-popup__title.css);
 @import url(../blocks/green-popup/__subtitle/green-popup__subtitle.css);
 @import url(../blocks/green-popup/__close/green-popup__close.css);
