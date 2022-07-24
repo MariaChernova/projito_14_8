@@ -1,0 +1,5 @@
+.magazine__cards {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 47px;
+}
