@@ -2,3 +2,10 @@
     margin: auto;
     padding-bottom: 28px;
 }
+
+@media screen and (max-width: 1439px) {
+    .tags {
+        padding-bottom: 20px;
+    }
+  }
+  
