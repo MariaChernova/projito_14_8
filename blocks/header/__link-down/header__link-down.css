@@ -1,0 +1,18 @@
+.header__link-down {
+  margin: 0 60px 0 0;
+  padding: 12px 0 11px;
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 26px;
+  text-decoration: none;
+  color: #232323;
+  white-space: nowrap;
+}
+
+.header__link-down:last-child {
+  margin: 0;
+}
+
+.header__link-down:hover {
+  border-bottom: 1px solid rgba(50, 50, 50, 1);
+}
