@@ -1,7 +1,7 @@
 .banner__button_color_white {
   grid-area: banner__button_color_white;
   background-color: #F7F4F0;
-  border: 1px solid #323232;
+  border: 1px solid #A5CDAB;
 }
 
 .banner__button_color_white:hover {

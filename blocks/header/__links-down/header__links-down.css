@@ -1,0 +1,12 @@
+.header__links-down {
+  margin-right: 30px;
+  padding: 0;
+  width: fit-content;
+  display: none;
+  position: absolute;
+  right: 0px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s ease 0s;
+}
