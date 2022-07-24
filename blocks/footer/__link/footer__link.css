@@ -8,8 +8,33 @@
   line-height: 1.3125;
   color: #323232;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .footer__link:hover {
   text-decoration: underline;
+}
+
+.footer__link:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__link {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    padding: 0 16px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .footer__link:first-of-type {
+    margin: 0 0 20px;
+  }
 }
