@@ -1,11 +1,13 @@
 .theme-card {
-    width: 328px;
-    height: 526px;
+    min-width: 328px;
+    min-height: 526px;
     background-repeat: no-repeat;
     border-radius: 8px;
     background-position: center center;
     background-size: cover;
     transition: opacity 1s ease;
+    white-space: normal;
+    display: inline-block;
 }
 
 .theme-card:hover {
