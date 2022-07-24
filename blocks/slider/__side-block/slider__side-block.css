@@ -4,5 +4,5 @@
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 33%;
-    height: 560px;
+    min-height: 560px;
 }

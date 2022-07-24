@@ -1,7 +1,9 @@
 .slider__container {
-  height: calc(467px - 24px);
+  min-height: 443px;
+  max-height: 100%;
   white-space: nowrap;
   overflow-x: scroll;
+  margin-bottom: 10px;
   width: 100%;
   -ms-scroll-snap-type: x mandatory;
   scroll-snap-type: x mandatory;
@@ -23,10 +25,4 @@
 
 .slider__container::-webkit-scrollbar-thumb {
   background-color: #323232;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  -webkit-border-radius: 2px;
 }
