@@ -1,0 +1,8 @@
+.slider__slide-button_disabled {
+    cursor: auto;
+    opacity: 0.5;
+}
+.slider__slide-button_disabled:hover {
+    opacity: 0.5; 
+}
+

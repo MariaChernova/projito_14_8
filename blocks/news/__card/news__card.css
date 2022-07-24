@@ -1,0 +1,8 @@
+.news__card {
+  width: 328px;
+  transition: 0.2s ease;
+}
+
+.news__card:hover {
+  opacity: 0.8;
+}

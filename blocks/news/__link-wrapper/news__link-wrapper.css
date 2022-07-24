@@ -1,0 +1,8 @@
+.news__link-wrapper {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.news__link-wrapper:first-child {
+  margin-left: 0;
+}
