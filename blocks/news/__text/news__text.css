@@ -3,4 +3,5 @@
     line-height: 26px;
     color: rgba(50, 50, 50, 0.6);
     margin: 0;
+    white-space: normal; 
 }
