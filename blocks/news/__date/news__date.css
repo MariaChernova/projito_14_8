@@ -11,3 +11,9 @@
        font-size: 12px; 
     }
 }
+
+@media screen and (max-width: 600px) {
+    .news__date {
+       margin-bottom: 0;
+    }
+}
