@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .article__image {
+  .article__gallery {
     width: 360px;
   }
 }

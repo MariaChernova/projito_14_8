@@ -1,19 +1,17 @@
-.article__image {
+.image__background {
   background-color: #F7F4F0;
   width: 910px;
   height: 520px;
   display: flex;
+  position: relative;
+  flex-direction: column;
   align-self: center;
-}
-
-@media screen and (max-width: 1439px) {
-  .article__image {
-    width: 768px;
-  }
+  margin-bottom: 52px;
 }
 
 @media screen and (max-width: 767px) {
-  .article__image {
+  .image__background {
     width: 360px;
+    height: 244px;
   }
 }

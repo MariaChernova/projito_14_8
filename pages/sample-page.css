@@ -36,9 +36,11 @@
 @import url(../blocks/footer/__info-link/footer__info-link.css);
 
 @import url(../blocks/article/article.css);
-@import url(../blocks/article/__image/article__image.css);
-@import url(../blocks/article/__video/article__video.css);
-@import url(../blocks/article/__video-button-play/article__video-button-play.css);
+@import url(../blocks/image/image.css);
+@import url(../blocks/image/__background/image__background.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__background/video__background.css);
+@import url(../blocks/video/__button-play/video__button-play.css);
 @import url(../blocks/article/__audio/article__audio.css);
 @import url(../blocks/article/__audio-icon/article__audio-icon.css);
 @import url(../blocks/article/__audio-time/article__audio-time.css);
