@@ -7,8 +7,12 @@ const buttonScrLeft = document.querySelector(
 
 const t = document.querySelector(".slider__container");
 
-function scrollPx() {
+function scrollLeft() {
   t.scrollBy(348, 0);
+}
+
+function scrollRight() {
+  t.scrollBy(-348, 0);
 }
 
 function activateBtn(slide) {
@@ -20,16 +24,10 @@ function disactivateBtn(slide) {
 }
 
 buttonScrRigth.addEventListener("click", function () {
-  scrollPx(t);
+  scrollLeft(t);
   activateBtn(buttonScrLeft);
 });
 
 buttonScrLeft.addEventListener("click", function () {
-  scrollPx(t);
-  disactivateBtn(buttonScrLeft);
+  scrollRight(t);
 });
-
-function scrollPercent() {
-  const half = t.scrollHeight / 2;
-  t.scrollTo(0, Math.ceil(half));
-}
