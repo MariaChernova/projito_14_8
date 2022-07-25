@@ -8,7 +8,7 @@ const buttonScrLeft = document.querySelector(
 const t = document.querySelector(".slider__container");
 
 function scrollPx() {
-  t.scrollTo(328, 0);
+  t.scrollBy(348, 0);
 }
 
 function activateBtn(slide) {
