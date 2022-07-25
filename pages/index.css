@@ -26,6 +26,7 @@
 @import url(../blocks/logo/__projito/logo__projito.css);
 @import url(../blocks/logo/__university/logo__university.css);
 @import url(../blocks/logo/_place/logo_place_menu.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 @import url(../blocks/green-popup/green-popup.css);
 @import url(../blocks/green-popup/__title/green-popup__title.css);
@@ -124,7 +125,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__social-links/footer__social-links.css);
 @import url(../blocks/footer/__social-link/footer__social-link.css);
 @import url(../blocks/footer/__social-link-text/footer__social-link-text.css);
