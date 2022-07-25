@@ -1,4 +1,4 @@
-.content__video-button-play {
+.article__video-button-play {
   background-image: url(../../../images/icon/video-play.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -11,6 +11,6 @@
   cursor: pointer;
 }
 
-.content__video-button-play:hover {
+.article__video-button-play:hover {
   opacity: 0.8;
 }
