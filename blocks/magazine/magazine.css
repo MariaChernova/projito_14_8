@@ -1,3 +1,9 @@
 .magazine {
     padding-top: 76px;
 }
+
+@media screen and (max-width: 600px) {
+    .magazine  {
+        padding-top: 32px;
+    }
+}
