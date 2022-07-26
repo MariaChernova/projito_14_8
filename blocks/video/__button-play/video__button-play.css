@@ -1,18 +1,16 @@
-.content__slider-button {
-  position: absolute;
-  right: 107px;
-  bottom: 110px;
+.video__button-play {
+  background-image: url(../../../images/icon/video-play.svg);
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
-  height: 35px;
-  width: 35px;
+  height: 110px;
+  width: 110px;
   padding: 0;
   background-color: transparent;
-  margin:0;
+  margin: auto;
   cursor: pointer;
 }
 
-.content__slider-button:hover {
+.video__button-play {
   opacity: 0.8;
 }

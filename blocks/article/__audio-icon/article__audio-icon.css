@@ -1,4 +1,4 @@
-.content__audio-icon {
+.article__audio-icon {
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
@@ -11,22 +11,22 @@
   margin: auto 0;
 }
 
-.content__audio-icon:nth-child(1) {
+.article__audio-icon:nth-child(1) {
   margin: auto 16px auto 24px;
 }
 
-.content__audio-icon:nth-child(2) {
+.article__audio-icon:nth-child(2) {
   margin-right: 12px;
 }
 
-.content__audio-icon:nth-child(3) {
+.article__audio-icon:nth-child(3) {
   margin-right: 20px;
 }
 
-.content__audio-icon:last-of-type {
+.article__audio-icon:last-of-type {
   margin: auto 20px auto 16px;
 }
 
-.content__audio-icon:hover {
+.article__audio-icon:hover {
   opacity: 0.8;
 }
