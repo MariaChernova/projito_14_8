@@ -31,6 +31,7 @@
 @import url(../blocks/green-popup/__title/green-popup__title.css);
 @import url(../blocks/green-popup/__subtitle/green-popup__subtitle.css);
 @import url(../blocks/green-popup/__close/green-popup__close.css);
+@import url(../blocks/green-popup/__link-wrapper/green-popup__link-wrapper.css);
 
 @import url(../blocks/popup/_closed/popup_closed.css);
 
