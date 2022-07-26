@@ -13,7 +13,6 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__content/header__content.css);
-@import url(../blocks/header/_bgcolor/header_bgcolor_white);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/_active/header__link_active.css);
@@ -35,7 +34,6 @@
 @import url(../blocks/rotated-button/rotated-button.css);
 
 @import url(../blocks/table-popup/table-popup.css);
-@import url(../blocks/table-popup/_closed/table-popup_closed.css);
 @import url(../blocks/table-popup/__wrapper/table-popup__wrapper.css);
 @import url(../blocks/table-popup/__close-button/table-popup__close-button.css);
 @import url(../blocks/table-popup/__list/table-popup__list.css);
