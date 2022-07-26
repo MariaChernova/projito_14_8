@@ -1,3 +1,9 @@
 .slider__content {
     width: 67%;
 }
+
+@media screen and (max-width: 600px) {
+    .slider__content {
+        width: 100%;
+    }
+}

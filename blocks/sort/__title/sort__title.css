@@ -5,3 +5,16 @@
   text-align: center;
   margin: 0 auto 16px;
 }
+
+@media screen and (max-width: 1439px) {
+  .sort__title {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sort__title {
+    margin: 0 0 20px 0;
+  }
+}

@@ -1,6 +1,4 @@
 .slider__container {
-  min-height: 443px;
-  max-height: 100%;
   white-space: nowrap;
   overflow-x: scroll;
   margin-bottom: 10px;
@@ -8,6 +6,7 @@
   -ms-scroll-snap-type: x mandatory;
   scroll-snap-type: x mandatory;
   margin-left: 20px;
+  margin-bottom: 20px;
   /* это для мозиллы */
   scroll-behavior: smooth;
   scrollbar-width: thin;
@@ -25,4 +24,17 @@
 
 .slider__container::-webkit-scrollbar-thumb {
   background-color: #323232;
+}
+
+@media screen and (max-width: 1023px) {
+  .slider__container {
+    margin-left: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider__container {
+    margin-left: 0;
+    overflow-x: visible;
+  }
 }

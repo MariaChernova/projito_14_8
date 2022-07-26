@@ -1,0 +1,32 @@
+.article__gallery-button {
+  position: absolute;
+  right: 107px;
+  bottom: 110px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  background-color: transparent;
+  margin:0;
+  cursor: pointer;
+}
+
+.article__gallery-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1439px) {
+  .article__gallery-button {
+    right: 43px;
+    bottom: 122px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article__gallery-button {
+    right: 37px;
+    bottom: 41px;
+  }
+}

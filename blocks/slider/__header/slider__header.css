@@ -4,3 +4,15 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 1023px) {
+    .slider__header  {
+       margin-left: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider__header  {
+       display: none;
+    }
+}
