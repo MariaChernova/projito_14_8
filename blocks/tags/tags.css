@@ -1,4 +1,11 @@
 .tags {
     margin: auto;
-    padding:  47px 0 28px;
+    padding-bottom: 28px;
 }
+
+@media screen and (max-width: 1439px) {
+    .tags {
+        padding-bottom: 20px;
+    }
+}
+  
