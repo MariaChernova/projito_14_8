@@ -1,0 +1,11 @@
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .slider  {
+       display: block;
+       margin: 0 12px;
+    }
+}

@@ -1,0 +1,19 @@
+.sort__item {
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #323232;
+  padding: 10px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.sort__item:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1439px) {
+  .sort__item {
+    font-size: 12px;
+  }
+}

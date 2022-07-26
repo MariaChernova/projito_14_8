@@ -6,3 +6,19 @@
   margin: 0;
   flex-grow: 3;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__social-links {
+    flex-direction: row;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social-links {
+    order: 1;
+    margin: 0 0 24px;
+  }
+}

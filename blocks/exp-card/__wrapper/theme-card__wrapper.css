@@ -1,8 +1,17 @@
 .exp-card__wrapper {
+    width: 100%;
     padding: 32px 16px 28px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 1023px) {
+    .exp-card__wrapper {
+        padding: 12px 8px 10px;
+    }
 }

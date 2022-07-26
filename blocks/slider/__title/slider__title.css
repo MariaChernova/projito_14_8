@@ -1,0 +1,28 @@
+.slider__title {
+    font-family: projito;
+    color: #f5f5f5;
+    font-size: 46px;
+    font-weight: 400;
+    max-width: 355px;
+    margin: 16px 0 0 32px;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 1023px) {
+    .slider__title {
+       font-size: 30px; 
+       max-width: 250px;
+       margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider__title  {
+        font-size: 32px;
+        line-height: 1.2;
+        color: #323232;
+        max-width: 100%;
+        margin-bottom: 4px;
+        margin-left: 0;
+    }
+}

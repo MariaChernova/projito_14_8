@@ -1,5 +1,5 @@
 .title {
-  margin: 42px auto 62px;
+  margin: 0px auto 62px;
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
@@ -8,4 +8,12 @@
   color: #323232;
   position: relative;
   text-align: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .title {
+    margin: 0px auto 24px;
+    font-size: 30px;
+    line-height: 38px;
+  }
 }

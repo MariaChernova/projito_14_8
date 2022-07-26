@@ -1,0 +1,15 @@
+.magazine__cards {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 47px;
+}
+
+@media screen and (max-width: 600px) {
+    .magazine__cards {
+        gap: 0;
+    }
+
+    /* .magazine__cards:not(:first-child) {
+        margin-left: -50px;
+    } */
+}

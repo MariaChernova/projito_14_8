@@ -1,0 +1,22 @@
+.sort__items {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .sort__items {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sort__items {
+    gap: 20px;
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.slider__side-block {
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 33%;
+}
+
+@media screen and (max-width: 600px) {
+    .slider__side-block  {
+       background-color: transparent;
+       display: block;
+    }
+}
+
