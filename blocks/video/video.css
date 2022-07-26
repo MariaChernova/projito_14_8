@@ -1,0 +1,29 @@
+.video {
+  background-color: #E7E4DE;
+  width: 678px;
+  height: 379px;
+  margin: 0;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-self: center;
+}
+
+video {
+  margin: auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .video {
+    width: 737px;
+    height: 411px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    width: 336px;
+    height: 187px;
+  }
+}

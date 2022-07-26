@@ -32,6 +32,26 @@
 @import url(../blocks/tags/__list/tags__list.css);
 @import url(../blocks/tags/__list-element/tags__list-element.css);
 
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__audio/article__audio.css);
+@import url(../blocks/article/__audio-icon/article__audio-icon.css);
+@import url(../blocks/article/__audio-time/article__audio-time.css);
+@import url(../blocks/article/__audio-track/article__audio-track.css);
+@import url(../blocks/article/__gallery/article__gallery.css);
+@import url(../blocks/article/__gallery-button/article__gallery-button.css);
+@import url(../blocks/article/__gallery-figcaption/article__gallery-figcaption.css);
+@import url(../blocks/article/__gallery-figcaption-text/article__gallery-figcaption-text.css);
+@import url(../blocks/article/__gallery-number/article__gallery-number.css);
+
+@import url(../blocks/image/image.css);
+@import url(../blocks/image/__background/image__background.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__background/video__background.css);
+@import url(../blocks/video/__button-play/video__button-play.css);
+
+@import url(../blocks/audio/audio.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
@@ -42,17 +62,3 @@
 @import url(../blocks/footer/__social-link-logo/footer__social-link-logo.css);
 @import url(../blocks/footer/__info-links/footer__info-links.css);
 @import url(../blocks/footer/__info-link/footer__info-link.css);
-
-@import url(../blocks/content/content.css);
-@import url(../blocks/content/__image/content__image.css);
-@import url(../blocks/content/__video/content__video.css);
-@import url(../blocks/content/__video-button-play/content__video-button-play.css);
-@import url(../blocks/content/__audio/content__audio.css);
-@import url(../blocks/content/__audio-icon/content__audio-icon.css);
-@import url(../blocks/content/__audio-time/content__audio-time.css);
-@import url(../blocks/content/__audio-track/content__audio-track.css);
-@import url(../blocks/content/__slider/content__slider.css);
-@import url(../blocks/content/__slider-button/content__slider-button.css);
-@import url(../blocks/content/__slider-figcaption/content__slider-figcaption.css);
-@import url(../blocks/content/__slider-figcaption-text/content__slider-figcaption-text.css);
-@import url(../blocks/content/__slider-number/content__slider-number.css);
