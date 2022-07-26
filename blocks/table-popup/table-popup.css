@@ -1,0 +1,10 @@
+.table-popup { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #E7E4DE;    
+    transition: all .5s ease-in-out;
+    z-index: 2;
+}

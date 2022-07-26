@@ -1,0 +1,41 @@
+.rotated-button {
+  position: absolute;
+  top: 511px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 0;
+  text-transform: lowercase;
+  font-family: projito;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  overflow: hidden;
+
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+
+  transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+}
+
+.rotated-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+  .rotated-button {
+    left: 10px;
+    top: 274px;
+    font-size: 16px;
+  }
+}
