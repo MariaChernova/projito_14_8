@@ -1,38 +1,33 @@
-.magazine-cards {
+.news__cards_webpage {
   display: grid;
   grid-template-columns: repeat(3, min-content);
   grid-template-rows: repeat(3, min-content);
-  margin: 36px auto 40px;
+  margin: 72px auto 40px;
   max-width: min-content;
   gap: 62px 80px;
+  padding-bottom: 0;
 }
 
-@media screen and (max-width: 1300px) {
-  .magazine-cards {
-    gap: 36px 40px;
-  }
-}
-
-@media screen and (max-width: 1144px) {
-  .magazine-cards {
+@media screen and (max-width: 1200px) {
+  .news__cards_webpage {
     grid-template-columns: repeat(2, min-content);
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .magazine-cards {
+  .news__cards_webpage {
     grid-template-columns: repeat(3, min-content);
-    gap: 36px 40px;
-
   }
 }
 
-@media screen and (max-width: 650px) {
-  .magazine-cards {
+@media screen and (max-width: 760px) {
+  .news__cards_webpage {
     grid-template-columns: repeat(2, min-content);
-    gap: 8px 8px;
-
   }
 }
 
-
+@media screen and (max-width: 600px) {
+  .news__cards_webpage {
+    grid-template-columns: repeat(1, 336px);
+  }
+}
