@@ -32,6 +32,17 @@
 @import url(../blocks/tags/__list/tags__list.css);
 @import url(../blocks/tags/__list-element/tags__list-element.css);
 
+@import url(../blocks/rotated-button/rotated-button.css);
+
+@import url(../blocks/table-popup/table-popup.css);
+@import url(../blocks/table-popup/_opened/table-popup_opened.css);
+@import url(../blocks/table-popup/__wrapper/table-popup__wrapper.css);
+@import url(../blocks/table-popup/__close-button/table-popup__close-button.css);
+@import url(../blocks/table-popup/__close-button-pic/table-popup__close-button-pic.css);
+@import url(../blocks/table-popup/__list/table-popup__list.css);
+@import url(../blocks/table-popup/__list-element/table-popup__list-element.css);
+@import url(../blocks/table-popup/__link/table-popup__link.css);
+
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/__audio/article__audio.css);
 @import url(../blocks/article/__audio-icon/article__audio-icon.css);
