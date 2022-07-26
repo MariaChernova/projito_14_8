@@ -16,7 +16,6 @@
 @import url(../blocks/header/__menu-button/_action/header__menu-button_action_open.css);
 @import url(../blocks/header/__menu-button/_action/header__menu-button_action_close.css);
 @import url(../blocks/header/__menu/_opened/header__menu_opened.css);
-@import url(../blocks/header/__second-level-links/_opened/header__second-level-links_opened.css);
 @import url(../blocks/header/__links-down/header__links-down.css);
 @import url(../blocks/header/__link-down/header__link-down.css);
 @import url(../blocks/header/__link-down/_active/header__link-down_active.css);

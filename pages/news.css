@@ -5,6 +5,30 @@
 
 @import url(../blocks/title/title.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__second-level-links/header__second-level-links.css);
+@import url(../blocks/header/__second-level-link/header__second-level-link.css);
+@import url(../blocks/header/_bgcolor/header_bgcolor_orange.css);
+@import url(../blocks/header/__menu-button/header__menu-button.css);
+@import url(../blocks/header/__menu-button/_action/header__menu-button_action_open.css);
+@import url(../blocks/header/__menu-button/_action/header__menu-button_action_close.css);
+@import url(../blocks/header/__menu/_opened/header__menu_opened.css);
+@import url(../blocks/header/__links-down/header__links-down.css);
+@import url(../blocks/header/__link-down/header__link-down.css);
+@import url(../blocks/header/__link-down/_active/header__link-down_active.css);
+@import url(../blocks/header/__links-down/_open/header__links-down_open.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__projito/logo__projito.css);
+@import url(../blocks/logo/__university/logo__university.css);
+@import url(../blocks/logo/_place/logo_place_menu.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__cards/news__cards.css);
 @import url(../blocks/news/__date/news__date.css);
@@ -17,7 +41,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__social-links/footer__social-links.css);
 @import url(../blocks/footer/__social-link/footer__social-link.css);
 @import url(../blocks/footer/__social-link-text/footer__social-link-text.css);

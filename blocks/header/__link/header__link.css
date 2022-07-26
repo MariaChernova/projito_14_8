@@ -8,6 +8,8 @@
   color: #323232;
   white-space: nowrap;
   width: fit-content;
+  box-sizing: border-box;
+  transition: opactity .3s;
 }
 
 .header__link:nth-child(3) {
@@ -31,5 +33,11 @@
   .header__link {
     padding: 0;
     margin-bottom: 28px;
+  }
+
+  .header__link:hover {
+    text-decoration: underline;
+    border: none;
+    opacity: 0.6;
   }
 }
