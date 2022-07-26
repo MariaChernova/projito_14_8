@@ -29,6 +29,12 @@
 @import url(../blocks/logo/_place/logo_place_menu.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__list/navigation__list.css);
+@import url(../blocks/navigation/__list-element/navigation__list-element.css);
+@import url(../blocks/navigation/__list-element/_disabled/navigation__list-element_disabled.css);
+
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__cards/news__cards.css);
 @import url(../blocks/news/__date/news__date.css);
@@ -37,6 +43,14 @@
 @import url(../blocks/news/__image/news__image.css);
 @import url(../blocks/news/__container/news__container.css);
 @import url(../blocks/news/__cards/_webpage/news__cards_webpage.css);
+
+@import url(../blocks/pagination/pagination.css);
+@import url(../blocks/pagination/__pages/pagination__pages.css);
+@import url(../blocks/pagination/__link/pagination__link.css);
+@import url(../blocks/pagination/__item/pagination__item.css);
+@import url(../blocks/pagination/__item-active/pagination__item-active.css);
+@import url(../blocks/pagination/__arrow/pagination__arrow.css);
+@import url(../blocks/pagination/__arrow-disable/pagination__arrow-disable.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);

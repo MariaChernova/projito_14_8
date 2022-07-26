@@ -43,8 +43,12 @@
       </nav>
     </header>
     <main>
-      <section class="navigation"></section>
-      <section class="tags"></section>
+      <section class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list-element"><a class="navigation__link" href="./index.html">Главная страница</a></li>
+          <li class="navigation__list-element navigation__list-element_disabled"><a class="navigation__link" href="./magazine.html">Все новости</a></li>
+        </ul>
+      </section>
       <h1 class="title">Новости</h1>
       <section class="news__cards_webpage">
         <a href="#" class="news__container">
@@ -183,6 +187,32 @@
           </p>
         </a>
       </section>
+      <ul class="pagination">
+        <li class="pagination__item">
+          <button class="pagination__arrow pagination__arrow-disable" type="button" alt="Назад">
+            <img src="images/icon/arrow-left.svg" alt="Назад">
+          </button>
+        </li>
+        <div class="pagination__pages">
+          <li class="pagination__item pagination__item-active">
+            <span>1</span>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">2</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">...</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">5</a>
+          </li>
+        </div>
+        <li class="pagination__item">
+          <button class="pagination__arrow" type="button" alt="Назад">
+            <img src="images/icon/arrow-right.svg" alt="Вперед">
+          </button>
+        </li>
+      </ul>
     </main>
     <footer class="footer">
       <nav class="footer__links">
