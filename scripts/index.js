@@ -21,6 +21,7 @@ function disactivateBtn(slide) {
   slide.classList.add("slider__slide-button_disabled");
 }
 
+
 greenPopupButtonClose.addEventListener('click', () => closeGreenPopup(greenPopup));
 
 btnScrRigthNews.addEventListener("click", function () {
@@ -40,4 +41,3 @@ btnScrRigthMagaz.addEventListener("click", function () {
 btnScrLeftMagaz.addEventListener("click", function () {
   sliderMagaz.scrollBy(-348, 0);
 });
-

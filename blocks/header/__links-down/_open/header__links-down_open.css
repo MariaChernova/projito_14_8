@@ -7,3 +7,11 @@
   opacity: 1;
   visibility: visible;
 }
+
+@media screen and (max-width: 767px) {
+  .header__links-down_open {
+    transition: all 0s;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
