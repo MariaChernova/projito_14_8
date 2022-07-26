@@ -7,7 +7,41 @@
     <link rel="stylesheet" href="pages/news.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
+    <header class="header header_bgcolor_white">
+      <div class="header__content">
+        <div class="logo">
+          <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
+          <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
+        </div>
+        <div class="header__menu">
+          <div class="logo logo_place_menu">
+            <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
+            <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
+          </div>
+          <button type="button" class="header__menu-button header__menu-button_action_close"></button>
+          <nav class="header__links">
+            <a href="https://prozhito.org/page/archive" class="header__link">Архив</a>
+            <a href="https://prozhito.org/persons" class="header__link">Корпус</a>
+            <a href="./index.html" id="btnAboutProj" class="header__link header__link_active">О проекте</a>
+          </nav>
+          <nav class="header__second-level-links">
+            <a href="#" class="header__second-level-link">О прожито</a>
+            <a href="#" class="header__second-level-link">Как работать?</a>
+            <a href="#" class="header__second-level-link">Медиа</a>
+            <a href="#" class="header__second-level-link">Новости</a>
+            <a href="#" class="header__second-level-link">Спецпроекты</a>
+          </nav>
+        </div>
+        <button type="button" class="header__menu-button header__menu-button_action_open"></button>
+      </div>
+      <nav class="header__links-down">
+        <a href="#" class="header__link-down">О прожито</a>
+        <a href="#" class="header__link-down">Как работать?</a>
+        <a href="#" class="header__link-down">Медиа</a>
+        <a href="#" class="header__link-down">Новости</a>
+        <a href="#" class="header__link-down">Спецпроекты</a>
+      </nav>
+    </header>
     <main>
       <section class="navigation"></section>
       <section class="tags"></section>
@@ -197,33 +231,17 @@
         <a href="#" class="footer__link">FAQ</a>
         <a href="#" class="footer__link">Инструкции</a>
       </nav>
-      <div class="logo">
-        <img
-          src="./images/logo-projito.svg"
-          alt="логотип проекта Прожито"
-          class="logo__projito"
-        />
-        <img
-          src="./images/logo-university.svg"
-          alt="логотип Европейского Университета"
-          class="logo__university"
-        />
+      <div class="logo logo_place_footer">
+        <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
+        <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
       </div>
       <nav class="footer__social-links">
         <a href="https://t.me/prozhito" class="footer__social-link">
-          <img
-            src="./images/telegram-logo.svg"
-            alt="логотип Телеграма"
-            class="footer__social-link-logo"
-          />
+          <img src="./images/telegram-logo.svg" alt="логотип Телеграма" class="footer__social-link-logo">
           <p class="footer__social-link-text">Телеграм</p>
         </a>
         <a href="https://vk.com/prozhito" class="footer__social-link">
-          <img
-            src="./images/vk-logo.svg"
-            alt="логотип Вконтакте"
-            class="footer__social-link-logo"
-          />
+          <img src="./images/vk-logo.svg" alt="логотип Вконтакте" class="footer__social-link-logo">
           <p class="footer__social-link-text">Вконтакте</p>
         </a>
       </nav>
@@ -232,5 +250,6 @@
         <a href="#" class="footer__info-link">Политика конфиденциальности</a>
       </nav>
     </footer>
-  </body>
+  <script src="scripts/header.js"></script>
+</body>
 </html>

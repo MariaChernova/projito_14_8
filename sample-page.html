@@ -13,12 +13,34 @@
         <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
         <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
       </div>
-      <nav class="header__links">
-        <a href="https://prozhito.org/page/archive" class="header__link">Архив</a>
-        <a href="https://prozhito.org/persons" class="header__link">Корпус</a>
-        <a href="./index.html" class="header__link header__link_active">О проекте</a>
-      </nav>
+      <div class="header__menu">
+        <div class="logo logo_place_menu">
+          <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
+          <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
+        </div>
+        <button type="button" class="header__menu-button header__menu-button_action_close"></button>
+        <nav class="header__links">
+          <a href="https://prozhito.org/page/archive" class="header__link">Архив</a>
+          <a href="https://prozhito.org/persons" class="header__link">Корпус</a>
+          <a href="./index.html" id="btnAboutProj" class="header__link header__link_active">О проекте</a>
+        </nav>
+        <nav class="header__second-level-links">
+          <a href="#" class="header__second-level-link">О прожито</a>
+          <a href="#" class="header__second-level-link">Как работать?</a>
+          <a href="#" class="header__second-level-link">Медиа</a>
+          <a href="#" class="header__second-level-link">Новости</a>
+          <a href="#" class="header__second-level-link">Спецпроекты</a>
+        </nav>
+      </div>
+      <button type="button" class="header__menu-button header__menu-button_action_open"></button>
     </div>
+    <nav class="header__links-down">
+      <a href="#" class="header__link-down">О прожито</a>
+      <a href="#" class="header__link-down">Как работать?</a>
+      <a href="#" class="header__link-down">Медиа</a>
+      <a href="#" class="header__link-down">Новости</a>
+      <a href="#" class="header__link-down">Спецпроекты</a>
+    </nav>
   </header>
   <main>
     <section class="sp-popup">
@@ -78,7 +100,7 @@
         ленинградский историк - все свое выдающееся собрание документов и автографов передал в ЦГАЛИ. Дневник
         Беневольского был переплетен, получил свой инвентарный номер и место на полке архива.
       </p>
-      
+
       <div class="image__background">
         <figure class="image">
           <img src="images/content-img1.jpg" alt="Старая фотография женщины за столом около дома">
@@ -143,7 +165,7 @@
         <br>
         Много и домашних дел: маме помочь, распилить с отцом дрова. Вот только атмосфера в доме становится все более напряженной.
         Однажды Юра, зачитавшись, забыл купить хлеба. «Он кричал что я нарочно ему врежу́ и т.д.. Наконец он приказал купить мне
-        горячей булки. Я ушел. 
+        горячей булки. Я ушел.
       </p>
       <div class="article__gallery">
         <img src="images/content-img2.jpg" alt="Фотография страницы из дневника">
@@ -177,18 +199,18 @@
       <a href="#" class="footer__link">FAQ</a>
       <a href="#" class="footer__link">Инструкции</a>
     </nav>
-    <div class="logo">
+    <div class="logo logo_place_footer">
       <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
       <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
     </div>
     <nav class="footer__social-links">
       <a href="https://t.me/prozhito" class="footer__social-link">
         <img src="./images/telegram-logo.svg" alt="логотип Телеграма" class="footer__social-link-logo">
-        <p class="footer__social-link-text">Телеграм</p>
+        <h3 class="footer__social-link-text">Телеграм</h3>
       </a>
       <a href="https://vk.com/prozhito" class="footer__social-link">
         <img src="./images/vk-logo.svg" alt="логотип Вконтакте" class="footer__social-link-logo">
-        <p class="footer__social-link-text">Вконтакте</p>
+        <h3 class="footer__social-link-text">Вконтакте</h3>
       </a>
     </nav>
     <nav class="footer__info-links">
@@ -197,5 +219,6 @@
     </nav>
   </footer>
   <script src="scripts/sp.js"></script>
+  <script src="scripts/header.js"></script>
 </body>
 </html>
