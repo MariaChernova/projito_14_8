@@ -1,9 +1,6 @@
 .table-popup__close-button {
     padding: 0;
     background-color: transparent;
-    background-image: url("../../../images/icon/popup-сlose.svg");
-    width: 22px;
-    height: 22px;
     border: 0;
     position: absolute;
     top: 37px;

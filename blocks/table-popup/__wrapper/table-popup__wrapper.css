@@ -1,0 +1,24 @@
+.table-popup__wrapper {
+    width: 1440px;
+    position: relative;
+    margin: auto;
+    padding-top: calc(170px - 36px);
+}
+
+@media screen and (max-width: 1439px) {
+    .table-popup__wrapper {
+        max-width: 98%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .table-popup__wrapper {
+        padding-top: calc(122px - 30px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .table-popup__wrapper {
+        padding-top: calc(82px - 30px);
+    }
+}
