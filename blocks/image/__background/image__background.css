@@ -9,6 +9,12 @@
   margin-bottom: 52px;
 }
 
+@media screen and (max-width: 1439px) {
+  .image__background {
+    width: 768px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .image__background {
     width: 360px;

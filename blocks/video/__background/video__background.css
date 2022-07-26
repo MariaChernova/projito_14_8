@@ -8,6 +8,13 @@
   margin-bottom: 52px;
 }
 
+@media screen and (max-width: 1439px) {
+  .video__background {
+    width: 737px;
+    height: 411px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .video__background {
     width: 336px;

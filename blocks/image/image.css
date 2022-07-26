@@ -7,6 +7,12 @@
   align-self: center;
 }
 
+@media screen and (max-width: 1439px) {
+  .image {
+    width: 768px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .image {
     width: 360px;
@@ -27,6 +33,7 @@ img {
 
 figcaption {
   position: absolute;
+  align-items: center;
   bottom: -50px;
   width: 562px;
   font-size: 14px;
@@ -34,6 +41,12 @@ figcaption {
   padding-bottom: 16px;
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
   margin: 16px 116px 0 232px;
+}
+
+@media screen and (max-width: 1439px) {
+  figcaption {
+    margin: 16px 16px 0 190px;
+  }
 }
 
 @media screen and (max-width: 767px) {
