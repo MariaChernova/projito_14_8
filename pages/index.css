@@ -47,14 +47,13 @@
 @import url(../blocks/actions/__more-button/actions__more-button.css);
 
 @import url(../blocks/news/news.css);
-@import url(../blocks/news/__card/news__card.css);
 @import url(../blocks/news/__cards/news__cards.css);
+@import url(../blocks/news/__info/news__info.css);
 @import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__name/news__name.css);
 @import url(../blocks/news/__text/news__text.css);
 @import url(../blocks/news/__image/news__image.css);
 @import url(../blocks/news/__container/news__container.css);
-@import url(../blocks/news/__link-wrapper/news__link-wrapper.css);
 
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__side-block/slider__side-block.css);
