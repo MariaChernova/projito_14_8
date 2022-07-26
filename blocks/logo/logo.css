@@ -6,3 +6,9 @@
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (max-width: 767px) {
+  .logo {
+    max-width: 256px;
+  }
+}
