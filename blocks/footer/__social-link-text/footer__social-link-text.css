@@ -2,3 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__social-link-text {
+    display: none;
+  }
+}

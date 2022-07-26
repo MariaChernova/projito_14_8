@@ -1,0 +1,19 @@
+.audio {
+  width: 910px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+
+@media screen and (max-width: 1439px) {
+  .audio {
+    width: 736px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .audio {
+    width: 360px;
+  }
+}

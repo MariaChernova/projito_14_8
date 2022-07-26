@@ -1,0 +1,23 @@
+.video__background {
+  width: 910px;
+  height: 379px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 52px;
+}
+
+@media screen and (max-width: 1439px) {
+  .video__background {
+    width: 737px;
+    height: 411px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__background {
+    width: 336px;
+    height: 187px;
+  }
+}

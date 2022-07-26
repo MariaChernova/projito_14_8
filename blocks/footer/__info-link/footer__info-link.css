@@ -19,3 +19,17 @@
   text-decoration: underline;
   opacity: 0.7;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__info-link {
+    margin: 0 0 8px;
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__info-link {
+    margin: 0 0 4px;
+  }
+}

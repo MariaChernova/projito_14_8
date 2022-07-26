@@ -7,17 +7,32 @@
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="page">
-    <header class="header">
+    <header class="header header_bgcolor_orange">
     <div class="header__content">
       <div class="logo">
         <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
         <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
       </div>
-      <nav class="header__links">
-        <a href="https://prozhito.org/page/archive" class="header__link">Архив</a>
-        <a href="https://prozhito.org/persons" class="header__link">Корпус</a>
-        <a href="./index.html" class="header__link header__link_active">О проекте</a>
-      </nav>
+      <div class="header__menu">
+        <div class="logo logo_place_menu">
+          <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
+          <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
+        </div>
+        <button class="header__menu-button header__menu-button_action_close"></button>
+        <nav class="header__links">
+          <a href="https://prozhito.org/page/archive" class="header__link">Архив</a>
+          <a href="https://prozhito.org/persons" class="header__link">Корпус</a>
+          <a href="./index.html" class="header__link header__link_active">О проекте</a>
+        </nav>
+        <nav class="header__second-level-links">
+          <a href="#" class="header__second-level-link">О прожито</a>
+          <a href="#" class="header__second-level-link">Как работать?</a>
+          <a href="#" class="header__second-level-link">Медиа</a>
+          <a href="#" class="header__second-level-link">Новости</a>
+          <a href="#" class="header__second-level-link">Спецпроекты</a>
+        </nav>
+      </div>
+      <button class="header__menu-button header__menu-button_action_open"></button>
     </div>
     <nav class="header__links-down">
       <a href="#" class="header__link-down">О прожито</a>
@@ -28,12 +43,11 @@
     </nav>
   </header>
   <main class="content">
-    <!-- <section class="green-popup">
+    <section class="green-popup">
       <h2 class="green-popup__title">СПЕЦПРОЕКТ БЛОКАДА</h2>
       <p class="green-popup__subtitle">Исследование блокадных дневников</p>
       <button class="green-popup__close"></button>
-    </section> -->
-  <main>
+    </section>
     <section class="lead">
       <div class="lead__container">
         <h1 class="lead__text">
@@ -108,17 +122,18 @@
           <div class="slider__header">
             <h3 class="slider__subtitle">Свежее</h3>
             <div>
-              <button
+              <button               id="btnScrLeftNews"
                 type="button"
                 class="slider__slide-button slider__slide-button_direction_left slider__slide-button_disabled"
               ></button>
               <button
+              id="btnScrRigthNews"
                 type="button"
                 class="slider__slide-button slider__slide-button_direction_right"
               ></button>
             </div>
           </div>
-          <div class="slider__container">
+          <div id="sliderNews" class="slider__container">
               <div class="news__cards">
                 <a href="#" class="news__container">
                   <div class="news__info">
@@ -279,7 +294,7 @@
         <button type="button" class="banner__button banner__button_color_white">Перейти к материалу &nbsp;<img src="./images/projects-arrow.svg" alt="Стрелка вправо"></button>
       </div>
     </section>
-    <section class="magazine"> 
+    <section class="magazine">
       <div class="slider">
         <div class="slider__side-block">
           <h2 class="slider__title">Журнал &laquo;Прожито&raquo;</h2>
@@ -293,16 +308,18 @@
             <h3 class="slider__subtitle">Новые материалы</h3>
             <div>
               <button
+              id="btnScrLeftMagaz"
                 type="button"
                 class="slider__slide-button slider__slide-button_direction_left slider__slide-button_disabled"
               ></button>
               <button
+              id="btnScrRigthMagaz"
                 type="button"
                 class="slider__slide-button slider__slide-button_direction_right"
               ></button>
             </div>
           </div>
-          <div class="slider__container">
+          <div id="sliderMagaz" class="slider__container">
             <div class="magazine__cards">
               <article class="theme-card theme-card_theme_stalin">
                 <a href="#" class="theme-card__wrapper">
@@ -410,8 +427,8 @@
               </article>
             </div>
           </div>
-        </div>  
-      </div>  
+        </div>
+      </div>
     </section>
     <section class="projects">
       <h2 class="projects__title">Спецпроекты</h2>
@@ -444,7 +461,7 @@
       <a href="#" class="footer__link">FAQ</a>
       <a href="#" class="footer__link">Инструкции</a>
     </nav>
-    <div class="logo">
+    <div class="logo logo_place_footer">
       <img src="./images/logo-projito.svg" alt="логотип проекта Прожито" class="logo__projito">
       <img src="./images/logo-university.svg" alt="логотип Европейского Университета" class="logo__university">
     </div>
@@ -463,5 +480,6 @@
       <a href="#" class="footer__info-link">Политика конфиденциальности</a>
     </nav>
   </footer>
+  <script src="./script/index.js"></script>
   </body>
 </html>
