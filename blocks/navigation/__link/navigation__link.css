@@ -16,5 +16,10 @@
     opacity: 0.7;
 }
 
-
-
+@media screen and (max-width: 1439px) {
+    .navigation__link {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+  }
+  

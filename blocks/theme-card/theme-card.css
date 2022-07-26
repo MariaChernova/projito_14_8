@@ -1,15 +1,22 @@
 .theme-card {
     min-width: 328px;
-    min-height: 526px;
+    height: 526px;
     background-repeat: no-repeat;
     border-radius: 8px;
     background-position: center center;
     background-size: cover;
     transition: opacity 1s ease;
     white-space: normal;
-    display: inline-block;
+    display: flex;
 }
 
 .theme-card:hover {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
+    .theme-card {
+        min-width: 180px;
+        height: 280px;
+    }
 }
