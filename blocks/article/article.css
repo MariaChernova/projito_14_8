@@ -7,7 +7,7 @@
   align-self: center;
 }
 
-h1 {
+.article h1 {
   font-family: projito;
   max-width: 674px;
   font-size: 46px;
@@ -19,20 +19,20 @@ h1 {
 }
 
 @media screen and (max-width: 1439px) {
-  h1 {
+  .article h1 {
     font-size: 30px;
     max-width: 440px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  h1 {
+  .article h1 {
     font-size: 26px;
     max-width: 336px;
   }
 }
 
-h2 {
+.article h2 {
   font-family: projito;
   max-width: 674px;
   font-size: 26px;
@@ -41,19 +41,19 @@ h2 {
 }
 
 @media screen and (max-width: 1439px) {
-  h2 {
+  .article h2 {
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  h2 {
+  .article h2 {
     font-size: 20px;
     margin: 0 0 20px;
   }
 }
 
-p {
+.article p {
   max-width: 674px;
   font-size: 18px;
   line-height: 1.6;
@@ -61,7 +61,7 @@ p {
 }
 
 @media screen and (max-width: 1439px) {
-  p {
+  .article p {
     max-width: 737px;
     min-width: 674px;
     font-size: 16px;
@@ -70,7 +70,7 @@ p {
 }
 
 @media screen and (max-width: 767px) {
-  p {
+  .article p {
     min-width: 336px;
     font-size: 14px;
     line-height: 1.6;
@@ -78,17 +78,17 @@ p {
   }
 }
 
-p:first-of-type {
+.article p:first-of-type {
   margin: 0 0 32px;
 }
 
 @media screen and (max-width: 767px) {
-  p:first-of-type {
+  .article p:first-of-type {
     margin: 0 12px 32px 12px;
   }
 }
 
-blockquote {
+.article blockquote {
   font-family: projito;
   max-width: 659px;
   font-size: 26px;
@@ -99,7 +99,7 @@ blockquote {
 }
 
 @media screen and (max-width: 1439px) {
-  blockquote {
+  .article blockquote {
     max-width: 721px;
     border-left: 2px solid #3A543E;
     margin: 0;
@@ -107,7 +107,7 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
-  blockquote {
+  .article blockquote {
     max-width: 721px;
     min-width: 317px;
     font-size: 20px;

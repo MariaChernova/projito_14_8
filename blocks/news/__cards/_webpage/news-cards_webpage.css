@@ -1,9 +1,0 @@
-.news-cards_webpage {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 373px);
-  margin: 72px auto 40px;
-  max-width: 1144px;
-  gap: 62px 80px;
-  padding-bottom: 0;
-}

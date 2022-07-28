@@ -1,0 +1,17 @@
+.green-popup__link-wrapper {
+    text-decoration: none;
+    color: inherit;
+    padding: 16px 33px 16px 24px;
+}
+
+@media screen and (max-width: 1439px) {
+    .green-popup__link-wrapper {
+      padding: 12px 20px 12px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .green-popup__link-wrapper {
+      padding: 12px 16px 12px 16px;
+    }
+  }
