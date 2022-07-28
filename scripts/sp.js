@@ -6,11 +6,11 @@ const spPopupTableCloseButton = spPopupTable.querySelector('.table-popup__close-
 const spPopupTableOpenButton = document.querySelector('.rotated-button');
 
 function closeSpPopup(modal) {
-  modal.classList.add('popup_closed');
+  modal.classList.add('popup-closer');
 }
 
 function openSpPopup(modal) {
-  modal.classList.remove('popup_closed');
+  modal.classList.remove('popup-closer');
 }
 
 spPopupButtonClose.addEventListener('click', () => closeSpPopup(spPopup));
