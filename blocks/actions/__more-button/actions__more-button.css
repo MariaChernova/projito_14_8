@@ -3,9 +3,12 @@
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  background-position: center center;
+  min-width: 50px;
+  min-height: 50px;
   border: none;
+  align-self: center;
+
 }
 
 .actions__more-button:hover {
@@ -14,15 +17,14 @@
 
 @media screen and (max-width: 1439px) {
   .actions__more-button {
-    width: 32px;
-    height: 32px;
-    
+    min-width: 32px;
+    min-height: 32px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .actions__more-button {
-    width: 50px;
-    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
   }
 }

@@ -8,7 +8,7 @@
   grid-template-columns: 446px 329px 329px;
   column-gap: 20px;
   row-gap: 32px;
-  grid-template-rows: 36px 290px 60px;
+  grid-template-rows: 36px max-content 60px;
   grid-template-areas:
   "banner__image banner__title banner__title"
   "banner__image banner__subtitle banner__subtitle"
@@ -22,7 +22,6 @@
     grid-template-columns: 234px 237px 237px;
     column-gap: 12px;
     row-gap: 12px;
-    grid-template-rows: 30px 157px 48px;
     grid-template-areas:
     "banner__image banner__title banner__title"
     "banner__image banner__subtitle banner__subtitle"

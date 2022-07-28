@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 1023px) {
     .slider__header  {
+        margin-right: 18px;
        margin-left: 12px;
     }
 }

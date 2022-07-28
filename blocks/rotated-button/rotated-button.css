@@ -13,6 +13,7 @@
   font-size: 26px;
   line-height: 1;
   cursor: pointer;
+  max-width: min-content;
   overflow: hidden;
 
   transform: rotate(-90deg);

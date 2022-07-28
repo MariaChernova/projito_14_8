@@ -4,7 +4,6 @@
   line-height: 1.2;
   margin: 0;
   align-self: center;
-  max-height: fit-content;
 }
 
 @media screen and (max-width: 1439px) {
