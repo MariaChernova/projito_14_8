@@ -12,14 +12,6 @@
   line-height:1.3;
 }
 
-/* .pagination__item:first-of-type {
-  margin: 0 214px 0 0;
-}
-
-.pagination__item:last-of-type {
-  margin: 0 0 0 214px;
-} */
-
 .pagination__item:hover {
   opacity: 0.5;
 }
