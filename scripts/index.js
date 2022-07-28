@@ -10,7 +10,7 @@ const btnScrLeftMagaz = document.querySelector("#btnScrLeftMagaz");
 const sliderMagaz = document.querySelector("#sliderMagaz");
 
 function closeGreenPopup(modal) {
-  modal.classList.add('popup_closed');
+  modal.classList.add('popup-closer');
 }
 
 function activateBtn(slide) {

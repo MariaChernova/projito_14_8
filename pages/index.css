@@ -33,7 +33,7 @@
 @import url(../blocks/green-popup/__close/green-popup__close.css);
 @import url(../blocks/green-popup/__link-wrapper/green-popup__link-wrapper.css);
 
-@import url(../blocks/popup/_closed/popup_closed.css);
+@import url(../blocks/popup-closer/popup-closer.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__text/lead__text.css);
@@ -65,7 +65,7 @@
 @import url(../blocks/slider/__content/slider__content.css);
 @import url(../blocks/slider/__header/slider__header.css);
 @import url(../blocks/slider/__subtitle/slider__subtitle.css);
-@import url(../blocks/slider/__group-buttons/news__arrows.css);
+@import url(../blocks/slider/__group-of-buttons/slider__group-of-buttons.css);
 @import url(../blocks/slider/__slide-button/slider__slide-button.css);
 @import url(../blocks/slider/__slide-button/_direction/slider__slide-button_direction_left.css);
 @import url(../blocks/slider/__slide-button/_direction/slider__slide-button_direction_right.css);

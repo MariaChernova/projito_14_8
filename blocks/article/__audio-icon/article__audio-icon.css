@@ -2,8 +2,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
-  height: 32px;
-  width: 32px;
+  min-height: 32px;
+  min-width: 32px;
   padding: 0;
   background-color: transparent;
   margin:0;

@@ -29,7 +29,7 @@
 @import url(../blocks/sp-popup/__subtitle/sp-popup__subtitle.css);
 @import url(../blocks/sp-popup/__close/sp-popup__close.css);
 
-@import url(../blocks/popup/_closed/popup_closed.css);
+@import url(../blocks/popup-closer/popup-closer.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__content/header__content.css);

@@ -1,7 +1,9 @@
 .actions__items {
+  max-width: 1440px;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, 562px);
-  grid-template-rows: repeat(2, 276px);
+  grid-template-columns: repeat(2,  562px);
+  grid-template-rows: repeat(2, minmax(276px, max-content));
   gap: 20px;
   justify-content: center;
 }
@@ -9,7 +11,7 @@
 @media screen and (max-width: 1439px) {
   .actions__items {
     grid-template-columns: repeat(2, 362px);
-    grid-template-rows: repeat(2, 212px);
+    grid-template-rows: repeat(2, minmax(212px, max-content));
     column-gap: 12px;
     row-gap: 24px;
   }
@@ -17,8 +19,9 @@
 
 @media screen and (max-width: 767px) {
   .actions__items {
-    grid-template-columns: 336px;
-    grid-template-rows: 184px;
+    grid-template-columns: 100%;
+    margin: 0 12px;
+    grid-template-rows: minmax(184px, max-content);
     row-gap: 12px;
   }
 }
