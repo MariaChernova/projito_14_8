@@ -3,7 +3,7 @@
   font-size: 46px;
   line-height: 1.2;
   max-width: 1163px;
-  margin: 0 0 114px 32px;
+  margin: 0 0 0 32px;
 }
 
 @media screen and (max-width: 1439px) {
@@ -11,7 +11,7 @@
     font-size: 30px;
     max-width: 900px;
     min-width: 676px;
-    margin: 0 76px 28px 16px;
+    margin: 0 76px 0 16px;
   }
 }
 
@@ -21,6 +21,6 @@
     line-height: 1;
     max-width: 676px;
     min-width: 336px;
-    margin: 0 12px 93px 12px;
+    margin: 0 12px 0 12px;
   }
 }

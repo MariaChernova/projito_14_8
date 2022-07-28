@@ -1,18 +1,22 @@
 .lead {
-  display: flex;
   background-color: #F7F4F0;
-  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   padding-top: 70px;
+  padding-bottom: 114px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1439px) {
   .lead {
     padding-top: 40px;
+    padding-bottom: 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead {
     padding-top: 31px;
+    padding-bottom: 93px;
   }
 }
