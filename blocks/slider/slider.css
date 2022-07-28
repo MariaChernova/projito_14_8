@@ -1,4 +1,6 @@
 .slider {
+    max-width: 1440px;
+    margin: auto;
     display: flex;
     overflow: hidden;
 }
