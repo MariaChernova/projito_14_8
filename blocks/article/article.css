@@ -9,6 +9,7 @@
 
 .article h1 {
   font-family: projito, 'Times New Roman', Times, serif;;
+  font-weight: 400;
   max-width: 674px;
   font-size: 46px;
   line-height: 1.2;
@@ -34,6 +35,7 @@
 
 .article h2 {
   font-family: projito, 'Times New Roman', Times, serif;;
+  font-weight: 400;
   max-width: 674px;
   font-size: 26px;
   line-height: 1;
@@ -91,6 +93,7 @@
 
 .article blockquote {
   font-family: projito, 'Times New Roman', Times, serif;;
+  font-weight: 400;
   max-width: 659px;
   font-size: 26px;
   line-height: 1;
