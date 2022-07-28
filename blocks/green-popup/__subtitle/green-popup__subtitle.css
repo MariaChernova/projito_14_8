@@ -17,5 +17,6 @@
   .green-popup__subtitle {
     font-size: 12px;
     max-width: 124px;
+    margin-top: 4px;
   }
 }
