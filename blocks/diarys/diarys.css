@@ -39,4 +39,17 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
   }
+
+  /* Это для webkit'ов */
+  .diarys::-webkit-scrollbar {
+    height: 0px;
+  }
+
+  .diarys::-webkit-scrollbar-track {
+    background: #e7e4de;
+  }
+
+  .diarys::-webkit-scrollbar-thumb {
+    background-color: #323232;
+  }
 }
