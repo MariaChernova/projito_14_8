@@ -1,17 +1,11 @@
 .video {
-  background-color: #E7E4DE;
-  width: 678px;
+  width: 910px;
   height: 379px;
-  margin: 0;
   display: flex;
-  justify-self: center;
+  position: relative;
+  flex-direction: column;
   align-self: center;
-  justify-content: center;
-  align-self: center;
-}
-
-video {
-  margin: auto;
+  margin-bottom: 52px;
 }
 
 @media screen and (max-width: 1439px) {

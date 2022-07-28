@@ -18,3 +18,8 @@
     width: 360px;
   }
 }
+
+.article__gallery img {
+  margin: auto;
+  background-size: contain;
+}
