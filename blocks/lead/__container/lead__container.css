@@ -1,5 +1,6 @@
 .lead__container {
   max-width: 1440px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1439px) {

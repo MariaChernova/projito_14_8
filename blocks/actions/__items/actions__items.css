@@ -1,4 +1,6 @@
 .actions__items {
+  max-width: 1440px;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 562px);
   grid-template-rows: repeat(2, 276px);
