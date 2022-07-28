@@ -18,6 +18,8 @@
 
 @media screen and (max-width: 1024px) {
   .diary__title {
+    max-width: 214px;
+    margin: 24px auto 0;
     height: 44px;
     font-size: 18px;
     line-height: 22px;

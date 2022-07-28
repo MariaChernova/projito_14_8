@@ -16,7 +16,8 @@
 
 @media screen and (max-width: 1024px) {
   .diary {
-    max-width: 238px;
+    width: 238px;
+    height: 360px;
   }
 }
 

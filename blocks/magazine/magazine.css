@@ -2,6 +2,12 @@
     padding-top: 76px;
 }
 
+@media screen and (max-width: 1439px) {
+    .magazine  {
+        padding-top: 25px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .magazine  {
         padding-top: 32px;

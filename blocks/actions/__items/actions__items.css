@@ -18,7 +18,7 @@
 @media screen and (max-width: 767px) {
   .actions__items {
     grid-template-columns: 336px;
-    grid-template-rows: 184px;
+    grid-template-rows: auto;
     row-gap: 12px;
   }
 }
