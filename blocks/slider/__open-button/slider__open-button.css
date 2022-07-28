@@ -8,13 +8,28 @@
     display: flex;
     align-items: center;
     max-width: 100% ;
-    margin: 0 40px 32px 32px;
+    margin: 0 40px 32px 16px;
     padding: 0;
     justify-content: flex-end;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
 }
 
 .slider__open-button:hover {
     opacity: 0.5;
+}
+
+@media screen and (max-width: 1023px) {
+    .slider__open-button {
+       font-size: 14px; 
+       margin: 0 20px 41px 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider__open-button  {
+       margin: 0 0 16px 0;
+       color: #323232;
+    }
 }

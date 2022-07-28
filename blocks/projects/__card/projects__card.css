@@ -2,10 +2,21 @@
     display: flex;
     margin-right: 20px;
     background-color: #f7f4f0;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .projects__card:last-child {
     margin: 0;
+}
+
+.projects__card:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1439px) {

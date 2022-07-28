@@ -1,13 +1,22 @@
 .exp-card {
     display: inline-block;
-    width: 328px;
+    min-width: 328px;
     height: 526px;
     border-radius: 10px;
 
     transition: opacity 1s ease;
     background-color: #E7E4DE;
+    white-space: normal;
+    display: inline-block;
 }
 
 .exp-card:hover {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
+    .exp-card {
+        min-width: 180px;
+        height: 280px;
+    }
 }

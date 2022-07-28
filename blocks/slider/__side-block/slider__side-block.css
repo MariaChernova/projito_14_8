@@ -4,5 +4,12 @@
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 33%;
-    height: 560px;
 }
+
+@media screen and (max-width: 600px) {
+    .slider__side-block  {
+       background-color: transparent;
+       display: block;
+    }
+}
+

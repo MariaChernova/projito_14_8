@@ -1,0 +1,16 @@
+.video__button-play {
+  background-image: url(../../../images/icon/video-play.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  height: 110px;
+  width: 110px;
+  padding: 0;
+  background-color: transparent;
+  margin: auto;
+  cursor: pointer;
+}
+
+.video__button-play {
+  opacity: 0.8;
+}

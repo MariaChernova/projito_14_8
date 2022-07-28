@@ -4,3 +4,9 @@
   position: relative;
   background: #ffffff;
 }
+
+@media screen {
+  .materials {
+    margin: 32px auto 32px;
+  }
+}
