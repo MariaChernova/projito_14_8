@@ -65,7 +65,7 @@
 @import url(../blocks/slider/__content/slider__content.css);
 @import url(../blocks/slider/__header/slider__header.css);
 @import url(../blocks/slider/__subtitle/slider__subtitle.css);
-@import url(../blocks/slider/__group-buttons/news__arrows.css);
+@import url(../blocks/slider/__group-of-buttons/slider__group-of-buttons.css);
 @import url(../blocks/slider/__slide-button/slider__slide-button.css);
 @import url(../blocks/slider/__slide-button/_direction/slider__slide-button_direction_left.css);
 @import url(../blocks/slider/__slide-button/_direction/slider__slide-button_direction_right.css);

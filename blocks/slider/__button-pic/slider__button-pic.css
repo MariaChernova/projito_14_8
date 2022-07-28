@@ -1,7 +1,7 @@
 .slider__button-pic {
     display: inline-block;
-    width: 50px;
-    height: 50px;     
+    min-width: 50px;
+    min-height: 50px;     
     margin-left: 20px;
     background-image: url("../../../images/icon/arrow-green.svg");
     background-position: center center;
@@ -11,15 +11,15 @@
 
 @media screen and (max-width: 1023px) {
     .slider__button-pic {
-       width: 32px;
-       height: 32px; 
+       min-width: 32px;
+       min-height: 32px; 
     }
 }
 
 @media screen and (max-width: 600px) {
     .slider__button-pic {
-       width: 22px;
-       height: 12px; 
+       min-width: 22px;
+       min-height: 12px; 
        background-image: url("../../../images/icon/slider-right.svg");
        margin-left: 18px;
     }

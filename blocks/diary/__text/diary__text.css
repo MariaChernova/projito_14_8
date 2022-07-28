@@ -1,6 +1,5 @@
 .diary__text {
   max-width: 296px;
-  height: 83px;
   margin: 0 16px 28px;
   font-family: "PT Sans";
   font-style: normal;
@@ -24,6 +23,5 @@
   .diary__text {
     font-size: 12px;
     line-height: 16px;
-    max-height: 83px;
   }
 }
