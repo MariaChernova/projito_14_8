@@ -13,3 +13,9 @@
       font-size: 12px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .exp-card__section-name {
+      margin-bottom: 6px;
+  }
+}
