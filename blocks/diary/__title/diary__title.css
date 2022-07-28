@@ -1,6 +1,6 @@
 .diary__title {
   margin: 28px auto 0;
-  max-width: 160px;
+  max-width: min-content;
   width: 100%;
   font-family: "projito";
   font-style: normal;
