@@ -8,7 +8,7 @@
 }
 
 .article h1 {
-  font-family: projito;
+  font-family: projito, 'Times New Roman', Times, serif;;
   max-width: 674px;
   font-size: 46px;
   line-height: 1.2;
@@ -33,7 +33,7 @@
 }
 
 .article h2 {
-  font-family: projito;
+  font-family: projito, 'Times New Roman', Times, serif;;
   max-width: 674px;
   font-size: 26px;
   line-height: 1;
@@ -54,6 +54,7 @@
 }
 
 .article p {
+  font-family: "PT Sans", Arial, sans-serif;
   max-width: 674px;
   font-size: 18px;
   line-height: 1.6;
@@ -89,7 +90,7 @@
 }
 
 .article blockquote {
-  font-family: projito;
+  font-family: projito, 'Times New Roman', Times, serif;;
   max-width: 659px;
   font-size: 26px;
   line-height: 1;

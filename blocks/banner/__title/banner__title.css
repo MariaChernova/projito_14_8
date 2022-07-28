@@ -1,6 +1,6 @@
 .banner__title {
   grid-area: banner__title;
-  font-family: projito;
+  font-family: projito, 'Times New Roman', Times, serif;;
   font-size: 36px;
   line-height: 1;
   margin: 0;
