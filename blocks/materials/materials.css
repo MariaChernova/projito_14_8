@@ -3,6 +3,7 @@
   margin: 56px auto 75px;
   position: relative;
   background: #ffffff;
+  overflow: hidden;
 }
 
 @media screen {

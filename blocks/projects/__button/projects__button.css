@@ -36,6 +36,12 @@
 
 @media screen and (max-width: 767px) {
     .projects__button {
-        padding: 16px 104.5px;
+      padding: 16px 104.5px;
     }
+}
+
+@media screen and (max-width: 359px) {
+  .projects__button {
+    padding: 16px 54.5px;
+  }
 }

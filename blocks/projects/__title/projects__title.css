@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 360px) {
     .projects__title {
-        margin-left: 12px;
+        margin: 0 0 0 12px;
         text-align: left;
     }
 }
