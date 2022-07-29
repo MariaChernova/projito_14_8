@@ -15,8 +15,8 @@
   margin: 40px auto 0;
   gap: 80px;
   margin: auto;
-  max-width: 80%;
-  min-height: min-content;
+  max-width: 1144px;
+  max-height: 428px;
 }
 
 @media screen and (max-width: 1144px) {

@@ -19,9 +19,8 @@
 
 @media screen and (max-width: 767px) {
   .actions__items {
-    grid-template-columns: 100%;
-    margin: 0 12px;
-    grid-template-rows: minmax(184px, max-content);
+    grid-template-columns: 336px;
+    grid-template-rows: auto;
     row-gap: 12px;
   }
 }
