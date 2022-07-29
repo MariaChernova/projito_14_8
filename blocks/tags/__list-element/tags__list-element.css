@@ -1,0 +1,17 @@
+.tags__list-element {
+  list-style-position: inside;
+  padding: 0 16px 0 0;
+  text-transform: uppercase;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.tags__list-element:first-child {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.tags__list-element:last-child {
+  padding-right: 0;
+}

@@ -1,0 +1,5 @@
+.popup-closer {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .3s ease-out, opacity .3s ease-in-out;
+}

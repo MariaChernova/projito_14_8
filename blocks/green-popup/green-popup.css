@@ -1,0 +1,22 @@
+.green-popup {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: calc((100% - 1440px) / 2 );
+  top: 120px;
+  background-color: #A5CDAB;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1439px) {
+  .green-popup {
+    top: 90px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .green-popup {
+    top: 55px;
+  }
+}

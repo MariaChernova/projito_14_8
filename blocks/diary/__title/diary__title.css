@@ -1,0 +1,26 @@
+.diary__title {
+  margin: 28px auto 0;
+  max-width: 160px;
+  width: 100%;
+  font-family: projito, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  align-items: center;
+  text-align: center;
+  text-overflow: clip;
+  color: #323232;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .diary__title {
+    max-width: 214px;
+    margin: 24px auto 0;
+    height: 44px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

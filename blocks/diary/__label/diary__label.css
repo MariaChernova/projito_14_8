@@ -1,0 +1,23 @@
+.diary__label {
+  margin: auto;
+  text-align: center;
+  padding: 8px 32px;
+  position: absolute;
+  top: -16px;
+  background: #a5cdab;
+  border-radius: 8px;
+  order: 3;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323232;
+}
+
+@media screen and (max-width: 1024px) {
+  .diary__label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

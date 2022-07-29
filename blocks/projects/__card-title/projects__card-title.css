@@ -1,0 +1,17 @@
+.projects__card-title {
+    font-size: 26px;
+    margin: 0 0 18px 0;
+    font-family: projito, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1439px) {
+    .projects__card-title {
+        margin: 0 0 8px 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

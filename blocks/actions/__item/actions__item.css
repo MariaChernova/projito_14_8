@@ -1,0 +1,20 @@
+.actions__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(50, 50, 50, 0.3);
+  padding: 32px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .actions__item {
+    padding: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .actions__item {
+    padding: 12px;
+  }
+}

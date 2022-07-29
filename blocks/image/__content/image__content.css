@@ -1,0 +1,22 @@
+.image__content {
+  display: flex;
+  margin: 0;
+  width: 910px;
+  height: 520px;
+  justify-self: center;
+  align-self: center;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .image__content {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .image__content {
+    width: 360px;
+    height: 244px;
+  }
+}

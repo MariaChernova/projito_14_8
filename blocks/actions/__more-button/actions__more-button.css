@@ -1,0 +1,30 @@
+.actions__more-button {
+  background-image: url(../../../images/icon/arrow-green.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-width: 50px;
+  min-height: 50px;
+  border: none;
+  align-self: center;
+
+}
+
+.actions__more-button:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1439px) {
+  .actions__more-button {
+    min-width: 32px;
+    min-height: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .actions__more-button {
+    min-width: 50px;
+    min-height: 50px;
+  }
+}

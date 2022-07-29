@@ -1,0 +1,21 @@
+.exp-card__subtitle {
+  margin: 0;
+  font-style: normal;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .exp-card__subtitle {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .exp-card__subtitle {
+    max-width: 226px;
+  }
+}

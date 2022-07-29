@@ -1,0 +1,17 @@
+.pagination__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 9px;
+  width: 32px;
+  height: 34px;
+  color: #323232;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  line-height:1.3;
+}
+
+.pagination__item:hover {
+  opacity: 0.5;
+}

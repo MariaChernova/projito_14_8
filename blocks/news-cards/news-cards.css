@@ -1,0 +1,33 @@
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-template-rows: repeat(3, min-content);
+  margin: 72px auto 40px;
+  max-width: min-content;
+  gap: 62px 80px;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .news-cards {
+    grid-template-columns: repeat(2, min-content);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .news-cards {
+    grid-template-columns: repeat(3, min-content);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .news-cards {
+    grid-template-columns: repeat(2, min-content);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news-cards {
+    grid-template-columns: repeat(1, 336px);
+  }
+}

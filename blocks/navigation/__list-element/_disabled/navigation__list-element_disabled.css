@@ -1,0 +1,3 @@
+.navigation__list-element_disabled {
+    pointer-events: none;
+}

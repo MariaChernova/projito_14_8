@@ -1,0 +1,19 @@
+.projects__content {
+    margin: 28px 31.5px 17px 31.5px;
+    font-family: "PT Sans", Arial, sans-serif;
+    max-width: 402px;
+    position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+    .projects__content {
+        margin: 12px;
+        position: static;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .projects__content {
+        margin: 12px 8px;
+    }
+}

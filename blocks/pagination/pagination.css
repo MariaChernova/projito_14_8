@@ -1,0 +1,23 @@
+.pagination {
+  max-width: 1440px;
+  display: flex;
+  list-style-type: none;
+  width: 678px;
+  align-self: center;
+  margin: 0 auto 62px;
+  color: #323232;
+  padding: 0;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .pagination {
+    width: 612px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pagination {
+    width: 336px;
+  }
+}

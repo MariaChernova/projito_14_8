@@ -1,0 +1,17 @@
+.header__links-down_open {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-start;
+
+  opacity: 1;
+  visibility: visible;
+}
+
+@media screen and (max-width: 767px) {
+  .header__links-down_open {
+    transition: all 0s;
+    opacity: 0;
+    visibility: hidden;
+  }
+}

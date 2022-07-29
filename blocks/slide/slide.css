@@ -1,0 +1,15 @@
+.slide {
+  margin: 24px auto 32px;
+  width: 48px;
+  height: 8px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .slide {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+  }
+}

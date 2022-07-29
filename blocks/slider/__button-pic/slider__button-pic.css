@@ -1,0 +1,26 @@
+.slider__button-pic {
+    display: inline-block;
+    min-width: 50px;
+    min-height: 50px;     
+    margin-left: 20px;
+    background-image: url("../../../images/icon/arrow-green.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1023px) {
+    .slider__button-pic {
+       min-width: 32px;
+       min-height: 32px; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider__button-pic {
+       min-width: 22px;
+       min-height: 12px; 
+       background-image: url("../../../images/icon/slider-right.svg");
+       margin-left: 18px;
+    }
+}

@@ -1,0 +1,54 @@
+.diarys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  padding: 0px;
+  margin: 40px auto 0;
+  gap: 80px;
+  margin: auto;
+  max-width: 1144px;
+  max-height: 428px;
+}
+
+@media screen and (max-width: 1144px) {
+  .diarys {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .diarys {
+    margin: 0 0 0 41px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    min-width: 319px;
+    max-width: 100%;
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+
+  /* Это для webkit'ов */
+  .diarys::-webkit-scrollbar {
+    height: 0px;
+  }
+
+  .diarys::-webkit-scrollbar-track {
+    background: #e7e4de;
+  }
+
+  .diarys::-webkit-scrollbar-thumb {
+    background-color: #323232;
+  }
+}

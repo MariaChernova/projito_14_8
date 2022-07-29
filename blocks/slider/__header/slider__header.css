@@ -1,0 +1,18 @@
+.slider__header {
+    margin: 16px 32px 24px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .slider__header  {
+        margin: 16px 16px 18px 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider__header  {
+       display: none;
+    }
+}

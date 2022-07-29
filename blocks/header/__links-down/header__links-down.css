@@ -1,0 +1,19 @@
+.header__links-down {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  display: none;
+  position: absolute;
+  z-index: 5;
+  right: 30px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s ease 0s;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__links-down {
+    right: 16px;
+  }
+}

@@ -1,0 +1,32 @@
+.article__audio-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  min-height: 32px;
+  min-width: 32px;
+  padding: 0;
+  background-color: transparent;
+  margin:0;
+  cursor: pointer;
+  margin: auto 0;
+}
+
+.article__audio-icon:nth-child(1) {
+  margin: auto 16px auto 24px;
+}
+
+.article__audio-icon:nth-child(2) {
+  margin-right: 12px;
+}
+
+.article__audio-icon:nth-child(3) {
+  margin-right: 20px;
+}
+
+.article__audio-icon:last-of-type {
+  margin: auto 20px auto 16px;
+}
+
+.article__audio-icon:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,36 @@
+.slider__slide-button {
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    padding: 0;
+}
+
+.slider__slide-button:hover {
+    opacity: 0.5;
+}
+
+.slider__slide-button:last-of-type{
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1439px) {
+    .slider__slide-button {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .slider__slide-button {
+        width: 32px;
+        height: 32px;
+    }
+  }

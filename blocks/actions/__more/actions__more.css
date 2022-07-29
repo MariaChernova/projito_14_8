@@ -1,0 +1,11 @@
+.actions__more {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .actions__more {
+    margin-top: 12px;
+  }
+}

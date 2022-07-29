@@ -1,0 +1,13 @@
+.materials {
+  max-width: 1440px;
+  margin: 52px auto 75px;
+  position: relative;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .materials {
+    margin: 32px auto 32px;
+  }
+}

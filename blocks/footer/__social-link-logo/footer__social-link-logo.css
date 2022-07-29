@@ -1,0 +1,14 @@
+.footer__social-link-logo {
+  width: 100%;
+  max-width: 18px;
+  margin: 0 8px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__social-link-logo {
+    max-width: 28px;
+    height: 28px;
+    margin: 0;
+  }
+}

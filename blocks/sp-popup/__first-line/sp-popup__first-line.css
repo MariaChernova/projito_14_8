@@ -1,0 +1,4 @@
+.sp-popup__first-line {
+  display: flex;
+  justify-content: space-between;
+}

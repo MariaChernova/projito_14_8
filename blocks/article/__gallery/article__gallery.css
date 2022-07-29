@@ -1,0 +1,25 @@
+.article__gallery {
+  display: flex;
+  position: relative;
+  background-color: #F7F4F0;
+  width: 910px;
+  height: 520px;
+  display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+  .article__gallery {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article__gallery {
+    width: 360px;
+  }
+}
+
+.article__gallery img {
+  margin: auto;
+  background-size: contain;
+}

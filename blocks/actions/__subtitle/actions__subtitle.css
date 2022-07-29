@@ -1,0 +1,12 @@
+.actions__subtitle {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  margin: 12px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .actions__subtitle {
+    font-size: 14px;
+  }
+}

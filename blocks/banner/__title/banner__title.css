@@ -1,0 +1,28 @@
+.banner__title {
+  grid-area: banner__title;
+  font-family: projito, 'Times New Roman', Times, serif;;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1;
+  margin: 0;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .banner__title {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__title {
+    text-align: center;
+    width: 100%;
+    font-size: 26px;
+    line-height: 1;
+  }
+}

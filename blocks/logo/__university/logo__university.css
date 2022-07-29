@@ -1,0 +1,9 @@
+.logo__university {
+  max-width: 99px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo__university {
+    max-width: 85px;
+  }
+}

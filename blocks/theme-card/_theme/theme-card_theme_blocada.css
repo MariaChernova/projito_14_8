@@ -1,0 +1,16 @@
+.theme-card_theme_blocada {
+    background-image: url("../../../images/card-blocada.png");
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .theme-card_theme_blocada::after {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 162px;
+        border-radius: 12px 12px 8px 8px;
+        background-color: #E7E4DE;
+    }
+}
