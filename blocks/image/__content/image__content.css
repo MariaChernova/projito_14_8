@@ -1,22 +1,21 @@
-.image__background {
-  background-color: #F7F4F0;
+.image__content {
+  display: flex;
+  margin: 0;
   width: 910px;
   height: 520px;
-  display: flex;
-  position: relative;
-  flex-direction: column;
+  justify-self: center;
   align-self: center;
-  margin-bottom: 52px;
 }
 
+
 @media screen and (max-width: 1439px) {
-  .image__background {
+  .image__content {
     width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .image__background {
+  .image__content {
     width: 360px;
     height: 244px;
   }

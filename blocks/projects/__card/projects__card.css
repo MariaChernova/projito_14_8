@@ -9,6 +9,7 @@
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
 }
 
 .projects__card:last-child {
@@ -34,5 +35,17 @@
         margin: 0 0 24px 0;
         min-height: 386px;
         max-width: 336px;
+        position: relative
+    }
+
+    .projects__card::after {
+        content: '';
+        border: 1px solid #a5cdab;
+        border-top: none;
+        width: 100%;
+        max-width: 334px;
+        height: 185px;
+        position: absolute;
+        bottom: 0;
     }
 }

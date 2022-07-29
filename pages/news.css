@@ -35,6 +35,8 @@
 @import url(../blocks/navigation/__list-element/navigation__list-element.css);
 @import url(../blocks/navigation/__list-element/_disabled/navigation__list-element_disabled.css);
 
+@import url(../blocks/news-cards/news-cards.css);
+
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__cards/news__cards.css);
 @import url(../blocks/news/__date/news__date.css);

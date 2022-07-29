@@ -1,0 +1,8 @@
+.theme-card__text_theme_blocada {
+    color: #323232;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-bottom: 16px;
+}

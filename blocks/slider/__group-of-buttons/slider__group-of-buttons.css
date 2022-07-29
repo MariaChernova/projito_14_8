@@ -1,0 +1,5 @@
+.slider__group-of-buttons {
+    min-width: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+}

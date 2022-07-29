@@ -22,7 +22,6 @@
 @media screen and (max-width: 1144px) {
   .diarys {
     gap: 12px;
-    max-height: 100%;
   }
 }
 
@@ -38,5 +37,18 @@
     -ms-scroll-snap-type: x mandatory;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+  }
+
+  /* Это для webkit'ов */
+  .diarys::-webkit-scrollbar {
+    height: 0px;
+  }
+
+  .diarys::-webkit-scrollbar-track {
+    background: #e7e4de;
+  }
+
+  .diarys::-webkit-scrollbar-thumb {
+    background-color: #323232;
   }
 }

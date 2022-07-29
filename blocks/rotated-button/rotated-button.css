@@ -1,7 +1,7 @@
 .rotated-button {
   position: absolute;
   top: 511px;
-  left: 20px;
+  left: calc((100% - 1440px) / 2 + 20px) ;
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -13,6 +13,7 @@
   font-size: 26px;
   line-height: 1;
   cursor: pointer;
+  max-width: min-content;
   overflow: hidden;
 
   transform: rotate(-90deg);
@@ -32,9 +33,14 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
   .rotated-button {
     left: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .rotated-button {
     top: 274px;
     font-size: 16px;
   }

@@ -1,8 +1,8 @@
 .article__audio {
   display: flex;
   align-items: center;
-  width: 678px;
-  height: 112px;
+  min-width: 678px;
+  min-height: 112px;
   background-color: #BFE9D5;
   border-radius: 35px;
 }

@@ -13,3 +13,15 @@
    display: none;
  }
 }
+
+@media screen and (max-width: 600px) {
+  .theme-card__text {
+   display: inline-block;
+   font-size: 12px;
+   line-height: 16px;
+   max-width: 236px;
+   margin-top: 4px;
+   z-index: 1;
+   position: relative;
+ }
+}

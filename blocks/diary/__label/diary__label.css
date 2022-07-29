@@ -3,12 +3,10 @@
   text-align: center;
   padding: 8px 32px;
   position: absolute;
-  max-width: 187px;
   top: -16px;
   background: #a5cdab;
   border-radius: 8px;
   order: 3;
-  z-index: 3;
   font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;

@@ -1,6 +1,6 @@
 .theme-card {
     min-width: 328px;
-    height: 526px;
+    min-height: 526px;
     background-repeat: no-repeat;
     border-radius: 8px;
     background-position: center center;
@@ -21,6 +21,13 @@
 @media screen and (max-width: 1023px) {
     .theme-card {
         min-width: 180px;
-        height: 280px;
+        min-height: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .theme-card {
+        min-height: 352px;
+        max-width: 252px;
     }
 }

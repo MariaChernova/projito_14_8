@@ -118,3 +118,33 @@
     margin: 0 12px;
   }
 }
+
+.article figcaption {
+  position: absolute;
+  align-items: center;
+  bottom: -50px;
+  width: 562px;
+  font-size: 14px;
+  line-height: 1.2;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+  margin: 16px 116px 0 232px;
+}
+
+@media screen and (max-width: 1439px) {
+  .article figcaption {
+    margin: 16px 16px 0 190px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article figcaption {
+    bottom: -56px;
+    width: 336px;
+    font-size: 14px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+    margin: 16px 12px 0 12px;
+  }
+}

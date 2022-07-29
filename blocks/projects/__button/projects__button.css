@@ -13,8 +13,8 @@
     padding: 12px 75.5px;
     cursor: pointer;
     transition: 0.3s ease;
-    max-width: min-content;
-    white-space: nowrap;
+    max-width: fit-content;
+    white-space: normal;
     text-decoration: none;
 }
 
@@ -37,6 +37,12 @@
 
 @media screen and (max-width: 767px) {
     .projects__button {
-        padding: 16px 104.5px;
+      padding: 16px 104.5px;
     }
+}
+
+@media screen and (max-width: 359px) {
+  .projects__button {
+    padding: 16px 54.5px;
+  }
 }
