@@ -50,12 +50,21 @@ btnScrLeftMagaz.addEventListener("click", function () {
 
 btnMaterSlideEl1.addEventListener("click", function () {
   diarysContainer.scrollTo(0, 0);
+  btnMaterSlideEl1.classList.add("slide__ellipse_active");
+  btnMaterSlideEl2.classList.remove("slide__ellipse_active");
+  btnMaterSlideEl3.classList.remove("slide__ellipse_active");
 });
 
 btnMaterSlideEl2.addEventListener("click", function () {
   diarysContainer.scrollTo(276, 0);
+  btnMaterSlideEl2.classList.add("slide__ellipse_active");
+  btnMaterSlideEl1.classList.remove("slide__ellipse_active");
+  btnMaterSlideEl3.classList.remove("slide__ellipse_active");
 });
 
 btnMaterSlideEl3.addEventListener("click", function () {
   diarysContainer.scrollTo(552, 0);
+  btnMaterSlideEl3.classList.add("slide__ellipse_active");
+  btnMaterSlideEl2.classList.remove("slide__ellipse_active");
+  btnMaterSlideEl1.classList.remove("slide__ellipse_active");
 });
