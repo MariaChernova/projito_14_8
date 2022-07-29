@@ -15,10 +15,10 @@
 @import url(../blocks/article/__gallery-number/article__gallery-number.css);
 
 @import url(../blocks/image/image.css);
-@import url(../blocks/image/__background/image__background.css);
+@import url(../blocks/image/__content/image__content.css);
 
 @import url(../blocks/video/video.css);
-@import url(../blocks/video/__background/video__background.css);
+@import url(../blocks/video/__content/video__content.css);
 @import url(../blocks/video/__button-play/video__button-play.css);
 
 @import url(../blocks/audio/audio.css);
