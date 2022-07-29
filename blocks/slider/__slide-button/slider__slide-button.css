@@ -20,4 +20,10 @@
     margin-right: 0;
 }
 
+@media screen and (max-width: 1439px) {
+    .slider__slide-button {
+        width: 32px;
+        height: 32px;
+    }
+}
 

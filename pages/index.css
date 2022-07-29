@@ -65,7 +65,7 @@
 @import url(../blocks/slider/__content/slider__content.css);
 @import url(../blocks/slider/__header/slider__header.css);
 @import url(../blocks/slider/__subtitle/slider__subtitle.css);
-@import url(../blocks/slider/__group-buttons/news__arrows.css);
+@import url(../blocks/slider/__group-of-buttons/slider__group-of-buttons.css);
 @import url(../blocks/slider/__slide-button/slider__slide-button.css);
 @import url(../blocks/slider/__slide-button/_direction/slider__slide-button_direction_left.css);
 @import url(../blocks/slider/__slide-button/_direction/slider__slide-button_direction_right.css);
@@ -112,6 +112,9 @@
 @import url(../blocks/exp-card/__subtitle/exp-card__subtitle.css);
 @import url(../blocks/exp-card/__title/exp-card__title.css);
 @import url(../blocks/exp-card/__wrapper/theme-card__wrapper.css);
+@import url(../blocks/theme-card/__subtitle/_theme/theme-card__subtitle_theme_blocada.css);
+@import url(../blocks/theme-card/__text/_theme/theme-card__text_theme_blocada.css);
+@import url(../blocks/theme-card/__title/_theme/theme-card__title_theme_blocada.css);
 
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__button/projects__button.css);
@@ -133,3 +136,5 @@
 @import url(../blocks/footer/__social-link-logo/footer__social-link-logo.css);
 @import url(../blocks/footer/__info-links/footer__info-links.css);
 @import url(../blocks/footer/__info-link/footer__info-link.css);
+
+@import url(../blocks/swiper/swiper.css);

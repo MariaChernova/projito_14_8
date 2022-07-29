@@ -1,7 +1,6 @@
 .lead__container {
-  display: flex;
-  width: 1440px;
-  margin: 0 auto;
+  max-width: 1440px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1439px) {

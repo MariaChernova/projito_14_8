@@ -1,7 +1,7 @@
 .exp-card {
     display: inline-block;
     min-width: 328px;
-    height: 526px;
+    min-height: 526px;
     border-radius: 10px;
 
     transition: opacity 1s ease;
@@ -17,6 +17,13 @@
 @media screen and (max-width: 1023px) {
     .exp-card {
         min-width: 180px;
-        height: 280px;
+        min-height: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .exp-card {
+        min-height: 352px;
+        max-width: 252px;
     }
 }
