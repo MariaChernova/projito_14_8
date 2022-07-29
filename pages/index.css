@@ -83,6 +83,7 @@
 @import url(../blocks/diary/__text/diary__text.css);
 @import url(../blocks/slide/slide.css);
 @import url(../blocks/slide/__ellipse/slide__ellipse.css);
+@import url(../blocks/slide/__ellipse/_active/slide__ellipse_active.css);
 
 @import url(../blocks/banner/banner.css);
 @import url(../blocks/banner/__container/banner__container.css);
