@@ -1,5 +1,7 @@
 .lead {
   background-color: #F7F4F0;
+  width: 100%;
+  box-sizing: border-box;
   margin: 0;
   padding-top: 70px;
   padding-bottom: 114px;

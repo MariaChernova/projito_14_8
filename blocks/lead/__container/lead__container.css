@@ -1,6 +1,7 @@
 .lead__container {
   max-width: 1440px;
   margin: auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 1439px) {
@@ -11,6 +12,6 @@
 
 @media screen and (max-width: 767px) {
   .lead__container {
-    min-width: 336px;
+    min-width: 320px;
   }
 }
