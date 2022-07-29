@@ -2,10 +2,8 @@
   display: grid;
   align-self: center;
   background-color: #F7F4F0;
-  max-width: 1376px;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 56px 116px 64px 116px;
+  width: 1376px;
+  padding: 56px 116px 54px 116px;
   justify-content: center;
   grid-template-columns: 446px 329px 329px;
   column-gap: 20px;

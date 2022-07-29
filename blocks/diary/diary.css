@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 328px;
+  height: 428px;
   gap: 12px;
   position: relative;
   background-color: #e7e4de;
@@ -15,7 +16,8 @@
 
 @media screen and (max-width: 1024px) {
   .diary {
-    max-width: 238px;
+    width: 238px;
+    height: 360px;
   }
 }
 

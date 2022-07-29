@@ -32,6 +32,7 @@
 
 @media screen and (max-width: 767px) {
     .projects__card {
+        background-color: #fff;
         margin: 0 0 24px 0;
         min-height: 386px;
         max-width: 336px;
