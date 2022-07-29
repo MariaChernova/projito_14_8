@@ -9,7 +9,7 @@
 @media screen and (max-width: 600px) {
     .slider__side-block  {
        background-color: transparent;
-       display: block;
+       align-items: start;
        margin-bottom: 24px;
     }
 }
